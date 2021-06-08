@@ -1,5 +1,9 @@
 
+<<<<<<< HEAD
 # Coders Evoke Code of Conducts
+=======
+# Coders Evoke Code of Conduct
+>>>>>>> 776fdb3cdb00c075c6177b6c70dc8b0ab02e2c83
 
 ## Our Pledge
 
@@ -53,7 +57,11 @@ further defined and clarified by project maintainers.
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
+<<<<<<< HEAD
 reported by contacting [guptajiayan111@gmail.com](mail to: guptajiayan111@gmail.com).
+=======
+reported by contacting [guptajiayan111@gmail.com](mailto:guptajiayan111@gmail.com).
+>>>>>>> 776fdb3cdb00c075c6177b6c70dc8b0ab02e2c83
 All complaints will be reviewed and investigated and will result in a response
 that is deemed necessary and appropriate to the circumstances. The project team
 is obligated to maintain confidentiality with regard to the reporter of an
@@ -62,6 +70,10 @@ separately.
 
 ## Attribution
 
+<<<<<<< HEAD
 
 <!-- have to add  -->
 
+=======
+a
+>>>>>>> 776fdb3cdb00c075c6177b6c70dc8b0ab02e2c83
