@@ -59,6 +59,7 @@
   transition: all 0.5s ease-in-out;
 }
 
+/* used for creating responsive navigation bar for mobile view*/
 @media only screen and (max-width: 768px) {
   .navigation-bar {
     justify-content: space-between;
@@ -91,6 +92,7 @@
     cursor: pointer;
   }
 
+  /* these three lines are used for making the cross icon for mobile view*/
   .layers.active .layer:nth-child(2) {
     opacity: 0;
   }
