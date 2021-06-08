@@ -1,6 +1,8 @@
+// navigation bar logic 
 const layers = document.querySelector(".layers");
 const navLinks = document.querySelector(".nav-links");
 
+// listen for click event and run function mobileMenu in return
 layers.addEventListener("click", mobileMenu);
 
 function mobileMenu() {
