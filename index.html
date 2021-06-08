@@ -5,43 +5,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- attach css files here -->
     <link rel="stylesheet" href="assets/css/style.css">
     <title>CODERS EVOKE </title>
 </head>
 
 <body>
-    <header class="nav">
-        <div class="topnav" id="myTopnav">
-            <a href="#home" class="active">Home</a>
-            <a href="#home">Home</a>
-            <a href="#home">Home</a>
-            <a href="#home">Home</a>
-
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-            </a>
+    <!-- navigation bar for the page-->
+    <nav class="navigation-bar">
+        <div class="logo">Coders Evoke</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Project</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+        <!--toggle view icon using div-->
+        <div class="layers">
+            <div class="layer"></div>
+            <div class="layer"></div>
+            <div class="layer"></div>
         </div>
-    </header>
+    </nav>
 
     <section id="home">
 
     </section>
-    <footer class="footer">
-        <div>
-            <p>Coders Evoke | 2021 | ©</p>
-        </div>
-    </footer>
-
-    <script>
-        function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
-            }
-        }
-    </script>
+    <!-- including javascript files here-->
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
