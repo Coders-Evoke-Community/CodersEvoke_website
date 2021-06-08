@@ -61,10 +61,5 @@ separately.
 
 ## Attribution
 
-This Code of Conduct is the product of Bright Network’s commitment to
-create and nurture a welcoming, respectful, and collaborative community,
-and we thank our Participants for sharing our commitment. The
-framework of this Code of Conduct was inspired by the Open Source
-Bridge Code of Conduct, released under a Creative Commons AttributionShareAlike license, and the Google Anti-Harassment Policy, licensed under
-the Creative Commons Zero License.
+This Code of Conduct is adapted from the Contributor Covenant (http://contributor-covenant.org), version 1.2.0, available at http://contributor-covenant.org/version/1/2/0/
 
