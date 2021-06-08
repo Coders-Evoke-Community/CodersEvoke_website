@@ -59,5 +59,12 @@ is obligated to maintain confidentiality with regard to the reporter of an
 incident. Further details of specific enforcement policies may be posted
 separately.
 
+## Attribution
 
+This Code of Conduct is the product of Bright Network’s commitment to
+create and nurture a welcoming, respectful, and collaborative community,
+and we thank our Participants for sharing our commitment. The
+framework of this Code of Conduct was inspired by the Open Source
+Bridge Code of Conduct, released under a Creative Commons AttributionShareAlike license, and the Google Anti-Harassment Policy, licensed under
+the Creative Commons Zero License.
 
