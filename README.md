@@ -20,10 +20,17 @@ And here , we came up with an idea of developing a website for the community as 
    3. JAVASCRIPT 
 
 ## **Repository Structure**
-<p> assets -> css == All Css files</p>
-<p>assets -> images == All images used in website</p>
-<p>js == All javascript files</p>
-<p>pages == All html files</p> 
+
+```
+├───.github
+│   ├───ISSUE_TEMPLATE
+│   └───workflows
+├───assets
+│   ├───css                    #All CSS files
+│   └───images                 #All Images 
+├───js                         #All JS Files
+└───Pages                      #All HTML Files
+``` 
 
 ## Our Contributors !! All Credits to them 🙌🏻
 
