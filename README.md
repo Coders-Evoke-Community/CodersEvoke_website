@@ -3,15 +3,17 @@
 ![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)![forthebadge](https://forthebadge.com/images/badges/built-with-swag.svg)![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)![forthebadge](https://forthebadge.com/images/badges/open-source.svg)![forthebadge](https://forthebadge.com/images/badges/uses-git.svg)![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)![forthebadge](https://forthebadge.com/images/badges/uses-js.svg)![forthebadge](https://forthebadge.com/images/badges/validated-html5.svg)
 
 ## Coders Evoke
+
 Coders Evoke is all about sharing knowledge, posting achievements, participating in hackathons, discussions and many more!
- We have a wide variety of topics however we’re always listening to suggestions from the community.
-And here , we came up with an idea of developing a website for the community as an open-source project so that help others to start with open source . 
+We have a wide variety of topics however we’re always listening to suggestions from the community.
+And here , we came up with an idea of developing a website for the community as an open-source project so that help others to start with open source .
 
 ## Contributing to this Repo
 
 **1.** Fork [this](https://github.com/Coders-Evoke-Community/CodersEvoke_website/fork) repository.
 
-**2.** Clone the forked repository. 
+**2.** Clone the forked repository.
+
 ```bash
 git clone https://github.com/<your-github-username>/project_name.git
 ```
@@ -23,8 +25,6 @@ cd CodersEvoke_website
 ```
 
 **4.** Make changes in source code.
-
-
 
 **5.** Stage your changes and commit
 
@@ -54,12 +54,13 @@ git push
 │   └───workflows
 ├───assets
 │   ├───css                    #All CSS files
-│   └───images                 #All Images 
+│   └───images                 #All Images
 ├───js                         #All JS Files
 └───Pages                      #All HTML Files
-``` 
+```
 
 ## Color Scheme for website
+
 ![](https://github.com/Coders-Evoke-Community/CodersEvoke_website/blob/main/color%20scheme.png)
 
 ### Credit goes to these people:✨
@@ -77,4 +78,9 @@ git push
 </br>
 </br>
 </br>
+
+## License
+
+Licensed under the [MIT License](LICENSE).
+
 <h1 align=center>Happy Coding 👨‍💻 </h1>
