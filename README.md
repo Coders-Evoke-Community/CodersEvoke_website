@@ -48,7 +48,7 @@ git add .
 git commit -m "<your_commit_message>"
 ```
 
-**7.**At this point you can use the git push command to push the changes to the current branch of your forked repository:
+**7.** At this point you can use the git push command to push the changes to the current branch of your forked repository:
 
 ```bash
 git push origin <branch-name>
