@@ -61,6 +61,11 @@ git push origin <branch-name>
 
 **9.** **Congratulations!** Sit and relax, you've made your contribution to CodersEvoke Website.
 
+__Note__ : 
+- If no response is recieved from you within 7 days of assigning the issue, then the issue will be unassigned.
+- If an issue doesn't gets assignee within 7 days, it will get assigned to the maintainer of repository
+
+<hr>
 
 ## **Repository Structure**
 
