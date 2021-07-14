@@ -116,3 +116,55 @@ div.logo {
     transform: translateY(-8px) rotate(-45deg);
   }
 }
+
+
+/* Styles for Home page*/
+
+
+.top,#home{
+  background-color:#4a104a;
+}
+
+#home{
+  margin:8% 10%;
+}
+.home-img{
+  margin-bottom:10%;
+}
+.main-heading{
+  font-size:50px;
+  font-family: 'Poppins' , sans-serif;
+  color:#eeeeee;
+  margin:10% 10%;
+}
+.heading{
+  font-size: 36px;
+  font-family: 'Poppins', sans-serif;
+  color:#5199db;
+}
+.text{
+  font-size: 18px;
+  color:#5a5a5a;
+  margin-top:10%;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+}
+
+.about-img{
+  width: 100%;
+}
+
+#view-btn{
+  border:2px solid #5199db;
+  color:#5199db;
+  margin-left: 30%;
+  font-size: 18px;
+  background-color:#4a104a;
+}
+#view-btn:hover{
+  background-color: #5199db;
+  color:#4a104a;
+}
+.content-main{
+  width:350px;
+}
