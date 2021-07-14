@@ -1,7 +1,17 @@
+:root {
+  --Linear-gradient2 : linear-gradient(to right, hsl(280, 39%, 43%) , hsl(356, 72%, 50%));
+  }
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: sans-serif;
+}
+
+div.logo {
+  font-family: "Roboto" , sans-serif;
+  letter-spacing: 0.5px;
 }
 
 .layers {
@@ -15,14 +25,17 @@
   justify-content: space-around;
   align-items: center;
   padding: 1rem 1.5rem;
-  background-color: #4a104a;
+  /* background-color: #4a104a; */
+  background-image: var(--Linear-gradient2);
+  border-radius: 0 1.8rem ;
+
 }
 
 .nav-links {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  width: 50%;
+  width: 40%;
 }
 
 .nav-links li {
@@ -30,13 +43,11 @@
 }
 
 .nav-links a {
+  position: relative;
   text-decoration: none;
-  font-size: 1.2rem;
-  color: #bbbbbb;
-}
-
-.nav-links a:hover {
-  color: #5199db;
+  font-size: 1rem;
+  /* color: #bbbbbb; */
+  color: white;
 }
 
 .nav-links a:active {
@@ -55,7 +66,7 @@
   width: 25px;
   height: 3px;
   margin: 5px auto;
-  background-color: #bbbbbb;
+  background-color: #fff;
   transition: all 0.5s ease-in-out;
 }
 
