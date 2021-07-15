@@ -1,6 +1,10 @@
 :root {
-  --Linear-gradient2 : linear-gradient(to right, hsl(280, 39%, 43%) , hsl(356, 72%, 50%));
-  }
+  --Linear-gradient2: linear-gradient(
+    to right,
+    hsl(280, 39%, 43%),
+    hsl(356, 72%, 50%)
+  );
+}
 
 * {
   box-sizing: border-box;
@@ -10,7 +14,7 @@
 }
 
 div.logo {
-  font-family: "Roboto" , sans-serif;
+  font-family: "Roboto", sans-serif;
   letter-spacing: 0.5px;
 }
 
@@ -27,8 +31,7 @@ div.logo {
   padding: 1rem 1.5rem;
   /* background-color: #4a104a; */
   background-image: var(--Linear-gradient2);
-  border-radius: 0 1.8rem ;
-
+  border-radius: 0 1.8rem;
 }
 
 .nav-links {
@@ -117,54 +120,91 @@ div.logo {
   }
 }
 
-
 /* Styles for Home page*/
 
-
-.top,#home{
-  background-color:#4a104a;
+.top,
+#home {
+  background-color: #4a104a;
 }
 
-#home{
-  margin:8% 10%;
+#home {
+  margin: 8% 10%;
 }
-.home-img{
-  margin-bottom:10%;
+.home-img {
+  margin-bottom: 10%;
 }
-.main-heading{
-  font-size:50px;
-  font-family: 'Poppins' , sans-serif;
-  color:#eeeeee;
-  margin:10% 10%;
+.main-heading {
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+  color: #eeeeee;
+  margin: 10% 10%;
 }
-.heading{
+.heading {
   font-size: 36px;
-  font-family: 'Poppins', sans-serif;
-  color:#5199db;
+  font-family: "Poppins", sans-serif;
+  color: #5199db;
 }
-.text{
+.text {
   font-size: 18px;
-  color:#5a5a5a;
-  margin-top:10%;
-  font-family: 'Nunito', sans-serif;
+  color: #5a5a5a;
+  margin-top: 10%;
+  font-family: "Nunito", sans-serif;
   font-weight: 600;
 }
 
-.about-img{
+.about-img {
   width: 100%;
 }
 
-#view-btn{
-  border:2px solid #5199db;
-  color:#5199db;
+#view-btn {
+  border: 2px solid #5199db;
+  color: #5199db;
   margin-left: 30%;
   font-size: 18px;
-  background-color:#4a104a;
+  background-color: #4a104a;
 }
-#view-btn:hover{
+#view-btn:hover {
   background-color: #5199db;
-  color:#4a104a;
+  color: #4a104a;
 }
-.content-main{
-  width:350px;
+.content-main {
+  width: 350px;
+}
+
+/*Back to top button */
+.gotopbtn {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: #4a104a;
+  bottom: 40px;
+  right: 50px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  font-size: 22px;
+  border-radius: 50%;
+  z-index: 99;
+}
+.gotopbtn {
+  background-position: center;
+  transition: background 0.8s;
+}
+.gotopbtn:hover {
+  background: #4a104a radial-gradient(circle, transparent 1%, #4a104a 1%)
+    center/15000%;
+}
+.gotopbtn:active {
+  background-color: white;
+  background-size: 100%;
+  transition: background 0s;
+}
+
+.bi {
+  text-decoration: none;
+  color: white;
+}
+.bi:hover {
+  color: white;
 }
