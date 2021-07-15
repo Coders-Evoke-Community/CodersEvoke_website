@@ -65,6 +65,8 @@ __Note__ :
 - If no response is recieved from you within 7 days of assigning the issue, then the issue will be unassigned.
 - If an issue doesn't gets assignee within 7 days, it will get assigned to the maintainer of repository
 
+## Want to Contribute to this repository?
+Head over to [Contributing Guidelines](https://github.com/Coders-Evoke-Community/CodersEvoke_website/blob/main/CONTRIBUTION.md) to know more!
 <hr>
 
 ## **Repository Structure**
