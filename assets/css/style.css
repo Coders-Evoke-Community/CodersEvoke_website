@@ -153,13 +153,15 @@ div.logo {
 }
 
 #home {
-  margin: 8% 10%;
+  margin: 10% 10%;
 }
 .home-img {
   margin-bottom: 10%;
 }
 .main-heading {
+  text-align: center;
   font-size: 50px;
+  line-height: 50px;
   font-family: "Poppins", sans-serif;
   color: #eeeeee;
   margin: 10% 10%;
@@ -184,7 +186,7 @@ div.logo {
 #view-btn {
   border: 2px solid #5199db;
   color: #5199db;
-  margin-left: 30%;
+  margin-left: 40%;
   font-size: 18px;
   background-color: #4a104a;
 }
