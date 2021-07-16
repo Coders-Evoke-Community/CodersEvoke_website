@@ -2,6 +2,17 @@
 const layers = document.querySelector(".layers");
 const navLinks = document.querySelector(".nav-links");
 
+// scroll to top
+var scrollToTopBtn = document.getElementById("scrollToTopBtn");
+var rootElement = document.documentElement;
+function scrollToTop() {
+  // Scroll to top logic
+  rootElement.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+}
+scrollToTopBtn.addEventListener("click", scrollToTop);
 // listen for click event and run function mobileMenu in return
 layers.addEventListener("click", mobileMenu);
 

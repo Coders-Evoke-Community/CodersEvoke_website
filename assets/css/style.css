@@ -153,13 +153,15 @@ div.logo {
 }
 
 #home {
-  margin: 8% 10%;
+  margin: 10% 10%;
 }
 .home-img {
   margin-bottom: 10%;
 }
 .main-heading {
+  text-align: center;
   font-size: 50px;
+  line-height: 50px;
   font-family: "Poppins", sans-serif;
   color: #eeeeee;
   margin: 10% 10%;
@@ -184,7 +186,7 @@ div.logo {
 #view-btn {
   border: 2px solid #5199db;
   color: #5199db;
-  margin-left: 30%;
+  margin-left: 40%;
   font-size: 18px;
   background-color: #4a104a;
 }
@@ -197,7 +199,23 @@ div.logo {
 }
 
 /*Back to top button */
-.gotopbtn {
+
+#scrollToTopBtn {
+  position:absolute;
+  background-color: #4A104A;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 48px;
+  width: 48px;
+  bottom: 40px;
+  right: 50px;
+  z-index: 99;
+}
+
+/* .gotopbtn {
   position: fixed;
   width: 50px;
   height: 50px;
@@ -232,7 +250,7 @@ div.logo {
 }
 .bi:hover {
   color: white;
-}
+} */
 
 
 
