@@ -39,6 +39,7 @@ div.logo {
   flex-direction: row;
   justify-content: space-evenly;
   width: 40%;
+  padding-top: 14px;
 }
 
 .nav-links li {
