@@ -1,0 +1,296 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+
+:root {
+    --Linear-gradient2: linear-gradient(
+      to right,
+      hsl(280, 39%, 43%),
+      hsl(356, 72%, 50%)
+    );
+  }
+  
+  * {
+    /* box-sizing: border-box; */
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  .top,
+  #home {
+    background-color: #4a104a;
+  }
+  
+  #home {
+    padding-top: 10%;
+    margin-bottom: 10%;
+    background-color: #4a104a;
+  }
+  .home-img {
+    margin-bottom: 10%;
+    margin-left: 40%;
+    
+  }
+  .main-heading {
+    text-align: center;
+    font-size: 50px;
+    line-height: 50px;
+    font-family: "Poppins", sans-serif;
+    color: #eeeeee;
+    margin: 10% 10%;
+  }
+  .heading {
+    font-size: 36px;
+    font-family: "Poppins", sans-serif;
+    color: #5199db;
+  }
+  .text {
+    font-size: 18px;
+    color: #5a5a5a;
+    margin-top: 10%;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+  }
+  
+  .about-img {
+    width: 100%;
+  }
+  
+  #view-btn {
+    border: 2px solid #5199db;
+    color: #ffffff;
+    margin-left: 40%;
+    font-size: 18px;
+    background-color: #4a104a;
+  }
+  #view-btn:hover {
+    background-color: #5199db;
+    color: #4a104a;
+  }
+  .content-main {
+    width: 350px;
+  }
+  
+
+
+/* header */
+
+.header {
+    background-image: var(--Linear-gradient2);
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    border-radius: 0 1.8rem;
+    border: none;
+    top: 0px
+  }
+  
+  .header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+  
+  }
+  
+  .header li a {
+    display: block;
+    border-radius:10px;
+    text-decoration: none;
+    transition:.2s all; 
+    color: #ffffff;
+    font-size: 1rem;
+    padding:8px;
+    width: 100vw
+  }
+  .menu:hover li a{
+    filter:blur(3px);
+    opacity:.5;
+    transform: scale(.98);
+    box-shadow:none;
+  }
+  
+  .header li a:hover,
+  .header .menu-btn:hover {
+    transform:scale(1);
+    filter:blur(0px);
+    opacity:1;
+    box-shadow:0 8px 20px 0px rgba(0,0,0,0.125);
+  }
+  
+  .header .logo {
+    display: block;
+    float: left;
+    font-size: 2em;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff
+  }
+  
+  /* menu */
+  
+  .header .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+    padding: 0px 5px;
+  }
+  
+  /* menu icon */
+  
+  .header .menu-icon {
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    padding: 28px 20px;
+    position: relative;
+    user-select: none;
+  }
+  
+  .header .menu-icon .navicon {
+    background: #333;
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background .2s ease-out;
+    width: 18px;
+  }
+  
+  .header .menu-icon .navicon:before,
+  .header .menu-icon .navicon:after {
+    background: #333;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+  }
+  
+  .header .menu-icon .navicon:before {
+    top: 5px;
+  }
+  
+  .header .menu-icon .navicon:after {
+    top: -5px;
+  }
+  
+  /* menu btn */
+  
+  .header .menu-btn {
+    display: none;
+  }
+  
+  .header .menu-btn:checked ~ .menu {
+    max-height: 240px;
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon {
+    background: transparent;
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon:before {
+    transform: rotate(-45deg);
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon:after {
+    transform: rotate(45deg);
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+    top: 0;
+  }
+  
+  /* 48em = 768px */
+  /* On screens that are 768px or higher */
+  @media screen and (min-width: 768px) {
+    .header li {
+      float: left;
+    }
+    .header li a {
+      padding: 20px 30px;
+      width: 100%;
+    }
+    .header .menu {
+      clear: none;
+      float: right;
+      max-height: none;
+    }
+    .header .menu-icon {
+      display: none;
+    }
+  
+    .home-img {
+      margin-bottom: 10%;
+    }
+  }
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    color: #000;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    margin-top: 4%;
+    border-radius: 5px;
+    height: 100%;
+    margin-bottom: 0%;
+    background-color: #fdfcfd;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  .column img{
+    height: 500px;
+    width: 10%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }

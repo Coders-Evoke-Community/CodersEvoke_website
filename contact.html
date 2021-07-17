@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- attach css files here -->
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <title>CODERS EVOKE </title>
+</head>
+
+<body>
+<!-- navigation bar for the page-->
+<header class="header">
+    <a href="" class="logo">Coders Evoke</a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#careers">Contact Us</a></li>
+      <li><a href="#contact">Opportinities</a></li>
+      <li><a href="#contact">Events</a></li>
+      <li><a href="#contact">Team</a></li>
+    </ul>
+  </header>
+
+<!-- including javascript files here-->
+<script src="./js/script.js"></script>
+
+
+
+<div class="container">
+  <div style="text-align:center">
+    <br>
+    <h1>Contact Us</h1>
+    <br>
+    <h3>Feel free to get in contact with us:</h3>
+    <br>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="assets/images/expertise.png" style="width:100%">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname"><b>First Name</b></label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname"><b>Last Name</b></label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country"><b>Country</b></label>
+        <select id="country" name="country">
+          <option value="australia">India</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+        <label for="subject"><b>Subject</b></label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+</body>
+</html>
