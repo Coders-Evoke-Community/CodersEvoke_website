@@ -186,7 +186,7 @@ div.logo {
 
 #view-btn {
   border: 2px solid #5199db;
-  color: #5199db;
+  color: #ffffff;
   margin-left: 40%;
   font-size: 18px;
   background-color: #4a104a;
@@ -541,7 +541,6 @@ p {
     border-radius: 50%;
     text-align: center;
     line-height: 40px;
-    background: #000;
     margin-right: 15px;
     color: #fff;
 }
@@ -677,4 +676,62 @@ p {
 
 #gmailus {
     margin-right: 7px;
+}
+
+
+
+/* more yilj.lf k/mm hrllo nslkclj fafas */
+
+.guidelines .heading {
+  text-align: center;
+  padding: 1rem;
+}
+
+.guidelines .box-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.guidelines .box-container .box {
+  background: #fff;
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin: 2rem;
+  width: 27rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.guidelines .box-container .box img {
+  height: 13rem;
+  width: 13rem;
+}
+
+.guidelines .box-container .box h3 {
+  font-size: 2rem;
+  color: #666;
+  padding: 1rem 0;
+}
+
+.guidelines .box-container .box p {
+  font-size: 1.4rem;
+  color: #999;
+  padding: 0.5rem;
+}
+
+.guidelines .box-container .box:hover {
+  transform: translateY(-1rem);
+}
+
+section .box .btn{
+  background-color:#f3ecf3;
+  border: 1px solid #5199db;
+  
+}
+.guidelines .box-container .btn:hover{
+  background-color: #5199db;
+  color: #070607;
 }
