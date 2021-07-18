@@ -639,9 +639,13 @@ a {
   padding:8px;
   width: 100vw
 }
+/* Hover effect*/
+a:hover
+{
+  background-color:#5199db;
+ 
+}
 .menu:hover li a{
-  filter:blur(3px);
-  opacity:.5;
   transform: scale(.98);
   box-shadow:none;
 }
@@ -649,8 +653,6 @@ a {
 .header li a:hover,
 .header .menu-btn:hover {
   transform:scale(1);
-  filter:blur(0px);
-  opacity:1;
   box-shadow:0 8px 20px 0px rgba(0,0,0,0.125);
 }
 
