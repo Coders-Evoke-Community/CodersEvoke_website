@@ -621,6 +621,19 @@ a {
   top: 0px
 }
 
+.image{
+  width: 30%;
+}
+
+
+.site-icon {
+  position: absolute;
+  width: 30%;
+  height: 50%;
+  top: 0%;
+  left: 0%;
+}
+
 .header ul {
   margin: 0;
   padding: 0;
@@ -660,7 +673,6 @@ a:hover
   display: block;
   float: left;
   font-size: 2em;
-  padding: 10px 20px;
   text-decoration: none;
   color: #fff
 }
