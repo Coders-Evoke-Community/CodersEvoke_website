@@ -86,6 +86,25 @@ Head over to [Contributing Guidelines](https://github.com/Coders-Evoke-Community
 
 ![](https://github.com/Coders-Evoke-Community/CodersEvoke_website/blob/main/color%20scheme.png)
 
+---
+
+<h1 align=center> Project Admin ❤️ </h1>
+<p align="center">
+
+<table>
+    <tbody>
+        <tr>
+            <td align="center"><a href="https://github.com/Ayan-thecodeking"><img alt="" src="https://avatars.githubusercontent.com/Ayan-thecodeking" width="100px;"><br><sub><b> Ayan Gupta </b></sub></a></td>
+            <td align="right">
+                <p><a href="https://twitter.com/CodeXayan_?s=09"><img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white"></a></p>
+                <p><a href="https://www.linkedin.com/in/ayan-gupta-🇮🇳-924833201/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"></a></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+---
+
 ### Credit goes to these people:✨
 
 <table>
