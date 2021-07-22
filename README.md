@@ -97,11 +97,26 @@ Head over to [Contributing Guidelines](https://github.com/Coders-Evoke-Community
 <h1 align=center> Project Admin ❤️ </h1>
 <p align="center">
 
-<table class="table-center">
+<table style="margin-left: auto;  
+margin-right: auto;  
+border-collapse: collapse;    
+width: 300px;  
+text-align: center;  
+font-size: 20px;">
     <tbody>
         <tr>
-            <td class="table-center"align="center"><a href="https://github.com/Ayan-thecodeking"><img alt="" src="https://avatars.githubusercontent.com/Ayan-thecodeking" width="100px;"><br><sub><b> Ayan Gupta </b></sub></a></td>
-            <td class="table-center" align="right">
+            <td style="margin-left: auto;  
+margin-right: auto;  
+border-collapse: collapse;    
+width: 300px;  
+text-align: center;  
+font-size: 20px;"align="center"><a href="https://github.com/Ayan-thecodeking"><img alt="" src="https://avatars.githubusercontent.com/Ayan-thecodeking" width="100px;"><br><sub><b> Ayan Gupta </b></sub></a></td>
+            <td style="margin-left: auto;  
+margin-right: auto;  
+border-collapse: collapse;    
+width: 300px;  
+text-align: center;  
+font-size: 20px;" align="right">
                 <p><a href="https://twitter.com/CodeXayan_?s=09"><img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white"></a></p>
                 <p><a href="https://www.linkedin.com/in/ayan-gupta-🇮🇳-924833201/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"></a></p>
             </td>
@@ -161,13 +176,3 @@ Licensed under the [MIT License](LICENSE).
 </br>
 
 <h1 align=center>Happy Coding 👨‍💻 </h1>
-<style>
-.table-center { 
-margin-left: auto;  
-margin-right: auto;  
-border-collapse: collapse;    
-width: 300px;  
-text-align: center;  
-font-size: 20px;  
-}    
-</style>
