@@ -13,11 +13,6 @@
   font-family: sans-serif;
 }
 
-.top,
-#home {
-  background-color: #4a104a;
-}
-
 #home {
   padding-top: 10%;
   margin-bottom: 10%;
@@ -887,3 +882,54 @@ a:hover
     font-family:  'Nunito', sans-serif;
   } 
 }
+
+/* Responsiveness */
+
+/* For mobile phones: */
+
+@media only screen and (max-width:480px) {
+  .row{
+    width: 100%;
+  }
+  .col{
+    min-width: 100%;
+  }
+  body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .header{
+    width: min-content;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  .site-icon{
+    position: relative;
+    margin: auto 0.4em;
+  }
+  .top{
+    width: 100%;
+  }
+  .about-us{
+    padding: 1em 3em;
+  }
+  .about-img{
+    
+    max-width: 100%;
+    display: block;
+    height: auto;
+  }
+  #home{
+    padding-bottom: 3em;
+  }
+  
+  #scrollToTopBtn{
+    position: fixed;
+    right: 1em;
+    bottom: 1.5em;
+  }
+}   /* For small screen */
+
+
