@@ -114,7 +114,7 @@ Head over to [Contributing Guidelines](https://github.com/Coders-Evoke-Community
 <h1 align=center> Mentors ✨</h1>
 <p align="center">
 
-<table>
+<table align="center">
     <tbody>
         <tr>
             <td align="center"><a href="https://github.com/neelshah2409"><img alt="" src="https://avatars.githubusercontent.com/u/71593494?v=4" width="100px;"><br><sub><b> Neel Shah </b></sub></a></td>
