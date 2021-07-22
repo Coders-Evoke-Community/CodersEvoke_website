@@ -616,7 +616,7 @@ a {
   position: fixed;
   width: 100%;
   z-index: 3;
-  border-radius: 0 1.8rem;
+  /*border-radius: 0 1.8rem;*/
   border: none;
   top: 0px
 }
@@ -658,6 +658,7 @@ a:hover
   background-color:#da385b;
  
 }
+
 .menu:hover li a{
   transform: scale(.98);
   box-shadow:none;
@@ -677,7 +678,7 @@ a:hover
   color: #fff
 }
 
-/* menu */
+/* menu 
 
 .header .menu {
   clear: both;
@@ -685,8 +686,19 @@ a:hover
   transition: max-height .2s ease-out;
   padding: 0px 5px;
 }
-
+*/
 /* menu icon */
+
+.menu{
+  transition: transform 500ms;
+  will-change: transform;
+}
+.menu li a:hover{
+  transform: translateY(3px);
+}
+
+
+
 
 .header .menu-icon {
   cursor: pointer;
