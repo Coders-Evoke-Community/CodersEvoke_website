@@ -161,7 +161,6 @@ Licensed under the [MIT License](LICENSE).
 </br>
 
 <h1 align=center>Happy Coding 👨‍💻 </h1>
-
 <style>
 .table-center { 
 margin-left: auto;  
