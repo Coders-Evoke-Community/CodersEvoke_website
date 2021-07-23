@@ -20,6 +20,9 @@
   margin-bottom: 10%;
   background-color: #4a104a;
 }
+#home .row{
+  margin-right: 0px;
+}
 .home-img {
   margin-bottom: 10%;
   margin-left: 40%;
@@ -652,7 +655,7 @@ a {
 /* Hover effect*/
 a:hover
 {
-  background-color:#5199db;
+  background-color:#da385b;
  
 }
 .menu:hover li a{
@@ -663,7 +666,7 @@ a:hover
 .header li a:hover,
 .header .menu-btn:hover {
   transform:scale(1);
-  box-shadow:0 8px 20px 0px rgba(0,0,0,0.125);
+  box-shadow:0 8px 20px 0px rgba(0,0,0,0.5);
 }
 
 .header .logo {
@@ -688,7 +691,6 @@ a:hover
 .header .menu-icon {
   cursor: pointer;
   display: inline-block;
-  float: right;
   padding: 28px 20px;
   position: relative;
   user-select: none;
@@ -719,7 +721,7 @@ a:hover
 }
 
 .header .menu-icon .navicon:after {
-  top: -5px;
+  top:5px;
 }
 
 /* menu btn */

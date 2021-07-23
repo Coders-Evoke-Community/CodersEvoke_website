@@ -7,6 +7,7 @@
 Coders Evoke is all about sharing knowledge, posting achievements, participating in hackathons, discussions and many more!
 We have a wide variety of topics however we’re always listening to suggestions from the community.
 And here , we came up with an idea of developing a website for the community as an open-source project so that help others to start with open source .
+
 <h3 align="center">
     <a href="https://discord.gg/FZusE7FH4q">👋 join our discord community <strong>Coders Evoke</strong> </a>
     </h3>
@@ -26,15 +27,17 @@ git clone https://github.com/<your-github-username>/project_name.git
 ```bash
 cd CodersEvoke_website
 ```
+
 **4.** Creating a new branch (IMP)
 This is one of the very important step that you should follow to contribute in Open Source. A branch helps to manage the workflow, isolate your code and does not creates a mess. To create a new branch:
-  
+
 ```bash
 $ git branch <name_of_branch>
 $ git checkout -b <name_of_branch>
 ```
 
 Keep your cloned repo upto date by pulling from upstream (this will also avoid any merge conflicts while committing new changes)
+
 ```bash
 git pull origin main
 ```
@@ -61,12 +64,15 @@ git push origin <branch-name>
 
 **9.** **Congratulations!** Sit and relax, you've made your contribution to CodersEvoke Website.
 
-__Note__ : 
+**Note** :
+
 - If no response is recieved from you within 7 days of assigning the issue, then the issue will be unassigned.
 - If an issue doesn't gets assignee within 7 days, it will get assigned to the maintainer of repository
 
 ## Want to Contribute to this repository?
+
 Head over to [Contributing Guidelines](https://github.com/Coders-Evoke-Community/CodersEvoke_website/blob/main/CONTRIBUTION.md) to know more!
+
 <hr>
 
 ## **Repository Structure**
@@ -91,13 +97,33 @@ Head over to [Contributing Guidelines](https://github.com/Coders-Evoke-Community
 <h1 align=center> Project Admin ❤️ </h1>
 <p align="center">
 
-<table>
+<table align="center">
     <tbody>
         <tr>
             <td align="center"><a href="https://github.com/Ayan-thecodeking"><img alt="" src="https://avatars.githubusercontent.com/Ayan-thecodeking" width="100px;"><br><sub><b> Ayan Gupta </b></sub></a></td>
             <td align="right">
                 <p><a href="https://twitter.com/CodeXayan_?s=09"><img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white"></a></p>
                 <p><a href="https://www.linkedin.com/in/ayan-gupta-🇮🇳-924833201/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"></a></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+---
+
+<h1 align=center> Mentors ✨</h1>
+<p align="center">
+
+<table align="center">
+    <tbody>
+        <tr>
+            <td align="center"><a href="https://github.com/neelshah2409"><img alt="" src="https://avatars.githubusercontent.com/u/71593494?v=4" width="100px;"><br><sub><b> Neel Shah </b></sub></a></td>
+            <td align="right">
+                <p><a href="https://www.linkedin.com/in/neel-shah-07460218a/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"></a></p>
+            </td>
+            <td align="center"><a href="https://github.com/abhiisinghh7"><img alt="" src="https://avatars.githubusercontent.com/u/62790758?v=4" width="100px;"><br><sub><b> Abhijat Singh </b></sub></a></td>
+            <td align="right">
+                <p><a href="https://www.linkedin.com/in/abhiisinghh99/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"></a></p>
             </td>
         </tr>
     </tbody>
@@ -131,7 +157,6 @@ Licensed under the [MIT License](LICENSE).
    something cool must try: <a href="https://github.com/rohan-kulkarni-25/Tribute-To-Contributors">Tribute-To-Contributors Repository </a>
    <br> If u are a begineer and looking for contibutions then you can refer <a href="https://github.com/Ayan-thecodeking/Here-Contributions-Begins.git">here contributions begin repository </a> </h3>
 
-	
 </br>
 </br>
 
