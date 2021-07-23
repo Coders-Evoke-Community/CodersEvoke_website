@@ -2,17 +2,18 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- attach css files here -->
-    <link rel="stylesheet" href="assets/css/contact.css">
-    <title>CODERS EVOKE </title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- attach css files here -->
+  <link rel="stylesheet" href="assets/css/contact.css">
+  <title>CODERS EVOKE </title>
+  <script src="https://kit.fontawesome.com/2b441a8006.js"></script>
 </head>
 
 <body>
-<!-- navigation bar for the page-->
-<header class="header">
+  <!-- navigation bar for the page-->
+  <header class="header">
     <a href="" class="logo">Coders Evoke</a>
     <input class="menu-btn" type="checkbox" id="menu-btn" />
     <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
@@ -26,41 +27,94 @@
     </ul>
   </header>
 
-<!-- including javascript files here-->
-<script src="./js/script.js"></script>
+  <!-- including javascript files here-->
+  <script src="./js/script.js"></script>
 
 
 
-<div class="container">
-  <div style="text-align:center">
-    <br>
-    <h1>Contact Us</h1>
-    <br>
-    <h3>Feel free to get in contact with us:</h3>
-    <br>
-  </div>
-  <div class="row">
-    <div class="column">
-      <img src="assets/images/expertise.png" style="width:100%">
+  <div class="container">
+    <div style="text-align:center">
+      <br>
+      <h1>Contact Us</h1>
+      <br>
+      <h3>Feel free to get in contact with us:</h3>
+      <br>
     </div>
-    <div class="column">
-      <form action="/action_page.php">
-        <label for="fname"><b>Name</b></label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
-        <label for="email"><b>Email</b></label>
-        <input type="text" id="lname" name="lastname" placeholder="Your Email..">
-        <label for="country"><b>Country</b></label>
-        <select id="country" name="country">
-          <option value="australia">India</option>
-          <option value="canada">Canada</option>
-          <option value="usa">USA</option>
-        </select>
-        <label for="subject"><b>Subject</b></label>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-        <input type="submit" value="Submit">
-      </form>
+    <div class="row">
+      <div class="column">
+        <img src="assets/images/expertise.png" style="width:100%">
+      </div>
+      <div class="column" style="text-align: left;">
+        <form action="/action_page.php" style="display: block;">
+          <label for="fname"><b>Name</b></label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <label for="email"><b>Email</b></label>
+          <input type="text" id="lname" name="lastname" placeholder="Your Email..">
+          <label for="country"><b>Country</b></label>
+          <select id="country" name="country">
+            <option value="australia">India</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+          <label for="subject"><b>Subject</b></label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
     </div>
   </div>
-</div>
+
+ <!-----------footer---------->
+
+  <footer>
+
+    <div class="footer-row">
+      <div class="footer-col">
+        <img src="assets/images/circle-cropped.png" class="footer-logo">
+        <span class="animate-border border-black"></span>
+        <p>“None of us, including me, ever do great things. But we can all do small things, with great love,
+          and together we can do something wonderful. Just together.”</p>
+      </div>
+
+      <div class="footer-col">
+        <div class="links">
+          <h2>Category <div class="underline"><span></span></div>
+          </h2>
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Project</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Events</a></li>
+          </ul>
+        </div>
+
+      </div>
+      <div class="footer-col">
+        <h2>News letter <div class="underline"><span></span></div>
+        </h2>
+        <form class="form">
+          <i class="fas fa-envelope-square"></i>
+          <input type="email" placeholder="enter email id" required>
+          <button type="submit"><i class="fas fa-arrow-right"></i></button>
+
+        </form>
+        <h2> Follow Us</h2>
+        <div class="social-icons">
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin"></i>
+          <i class="fab fa-google-plus"></i>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <!-- End Contact Container -->
+    <p class="copyright">Copyright © 2021 || Coders Evoke. All rights reserved </p>
+
+  </footer>
+
 </body>
+
 </html>
