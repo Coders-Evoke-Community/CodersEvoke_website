@@ -23,6 +23,9 @@
   margin-bottom: 10%;
   background-color: #4a104a;
 }
+#home .row{
+  margin-right: 0px;
+}
 .home-img {
   margin-bottom: 10%;
   margin-left: 40%;
@@ -691,7 +694,6 @@ a:hover
 .header .menu-icon {
   cursor: pointer;
   display: inline-block;
-  float:right;
   padding: 28px 20px;
   position: relative;
   user-select: none;
