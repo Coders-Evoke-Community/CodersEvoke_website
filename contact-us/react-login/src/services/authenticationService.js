@@ -1,6 +1,6 @@
 export const registerUserService = (request) => {
-  const REGISTER_API_ENDPOINT = 'http://localhost:8080/api/users/register';
-  
+  const REGISTER_API_ENDPOINT = 'https://coders-evoke-contactus.herokuapp.com/api/users/register';
+
   const parameters = {
     method: 'POST',
     headers: {
@@ -19,7 +19,7 @@ export const registerUserService = (request) => {
 };
 
 export const loginUserService = (request) => {
-  const LOGIN_API_ENDPOINT = 'http://localhost:8080/api/users/signin';
+  const LOGIN_API_ENDPOINT = 'https://coders-evoke-contactus.herokuapp.com/api/users/signin';
 
   const parameters = {
     method: 'POST',

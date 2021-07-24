@@ -2,7 +2,7 @@ import { getCookie } from "../utils/cookies";
 
 export const getSubmissionsService = (request) => {
     console.log('INSIDE GET SUB SERVICE')
-    const GET_SUBMISSIONS_API_ENDPOINT = 'http://localhost:8080/api/submisson/getall';
+    const GET_SUBMISSIONS_API_ENDPOINT = 'https://coders-evoke-contactus.herokuapp.com/api/submisson/getall';
     const token = getCookie('token')
 
     const parameters = {

@@ -1,7 +1,7 @@
 import { getCookie } from "../utils/cookies";
 
 export const getSubscriptionsService = (request) => {
-    const GET_SUBSCRIPTIONS_API_ENDPOINT = 'http://localhost:8080/api/subscription/getall';
+    const GET_SUBSCRIPTIONS_API_ENDPOINT = 'https://coders-evoke-contactus.herokuapp.com/api/subscription/getall';
     const token = getCookie('token')
 
     const parameters = {
@@ -22,7 +22,7 @@ export const getSubscriptionsService = (request) => {
 };
 
 export const createSubscriptionService = (request) => {
-    const CREATE_SUBSCRIPTIONS_API_ENDPOINT = 'http://localhost:8080/api/subscription/create';
+    const CREATE_SUBSCRIPTIONS_API_ENDPOINT = 'https://coders-evoke-contactus.herokuapp.com/api/subscription/create';
     const token = getCookie('token')
     console.log(request, "request value in service")
 
@@ -45,7 +45,7 @@ export const createSubscriptionService = (request) => {
 };
 
 export const deleteSubscriptionService = (request) => {
-    const DELETE_SUBSCRIPTIONS_API_ENDPOINT = 'http://localhost:8080/api/subscription/remove';
+    const DELETE_SUBSCRIPTIONS_API_ENDPOINT = 'https://coders-evoke-contactus.herokuapp.com/api/subscription/remove';
     const token = getCookie('token')
 
     const parameters = {
