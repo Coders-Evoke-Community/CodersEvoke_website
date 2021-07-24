@@ -9,6 +9,10 @@ window.onload = function () {
     const url = 'https://coders-evoke-contactus.herokuapp.com/api/submisson/create'
     fetch(url, {
       method: "POST",
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+      },
       body: JSON.stringify({
         user: document.getElementById('name').value,
         submission_description: document.getElementById('message').value,
@@ -23,18 +27,18 @@ window.onload = function () {
 
 
 
-    // generate random contact number
-    this.contact_number.value = Math.random() * 100000 | 0;
+    // // generate random contact number
+    // this.contact_number.value = Math.random() * 100000 | 0;
 
-    // // send form to mail
-    emailjs.sendForm('contact_service', 'contact_form', this)
-      .then(function () {
-        document.getElementById('status').innerHTML = "Submitted Successfully..";
-        document.getElementById('contact-form').reset();
-      }, function (error) {
-        console.log('FAILED', error);
-        document.getElementById('status').innerHTML = "Submission Failed! Try Again.";
-        document.getElementById('contact-form').reset();
-      });
+    // // // send form to mail
+    // emailjs.sendForm('contact_service', 'contact_form', this)
+    //   .then(function () {
+    //     document.getElementById('status').innerHTML = "Submitted Successfully..";
+    //     document.getElementById('contact-form').reset();
+    //   }, function (error) {
+    //     console.log('FAILED', error);
+    //     document.getElementById('status').innerHTML = "Submission Failed! Try Again.";
+    //     document.getElementById('contact-form').reset();
+    //   });
   });
 }
