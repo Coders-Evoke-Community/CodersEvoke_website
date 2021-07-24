@@ -901,7 +901,7 @@ a:hover
   background: black;
   color: rgb(0, 0, 0);
   padding: 100px 0 30px;
-  border-top-left-radius: 125px ;
+  /*border-top-left-radius: 125px ;*/
   position: sticky;
   top: 100%;
 }
@@ -1003,7 +1003,7 @@ p{
 
 .footer-col h2{
   width: fit-content;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   position: relative;
   color: white;
 }
@@ -1032,7 +1032,7 @@ form{
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid rgb(255, 255, 255);
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 
 }
 
