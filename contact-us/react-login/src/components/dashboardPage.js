@@ -10,6 +10,11 @@ import {
 import DashboardTable from './dashboardTable';
 import SubscriptionContainer from './subscriptionContainer';
 import { registerUserAction } from '../actions/authenticationActions'
+import Tippy from '@tippyjs/react';
+import InfoIcon from '@material-ui/icons/Info';
+import '../../node_modules/tippy.js/dist/tippy.css';
+import '../../node_modules/tippy.js/themes/material.css';
+import '../../node_modules/tippy.js/animations/scale-subtle.css';
 
 class DashboardPage extends Component {
   constructor(props) {
@@ -77,10 +82,25 @@ class DashboardPage extends Component {
         <div className="summary">
           <div classname="content__container">
             <div className="content__header">
-              <div className="head">
+              <div className="head" style={{ display: 'flex' }}>
                 <h2>
                   Recent Contact us Submissions
                 </h2>
+                <div style={{ padding: '20px' }}>
+                  <Tippy
+                    content="A list of all the recent contact us submissions from the coders evoke website."
+                    placement="bottom"
+                    animation="scale-subtle"
+                    theme="light"
+                    arrow={true}
+                    duration={400}
+                    delay={[75, 0]}
+                    distance={10}
+
+                  >
+                    <InfoIcon style={{ fontSize: 25 }} />
+                  </Tippy>
+                </div>
               </div>
             </div>
             <div className="content__content">
@@ -93,6 +113,19 @@ class DashboardPage extends Component {
             <div className="admins__container-new">
               <h3 className="head">
                 New Admin Account
+                <Tippy
+                  content="Create a new admin account to access the admin panel."
+                  placement="bottom"
+                  animation="scale-subtle"
+                  theme="light"
+                  arrow={true}
+                  duration={400}
+                  delay={[75, 0]}
+                  distance={10}
+                  style={{ padding: '10px' }}
+                >
+                  <InfoIcon style={{ fontSize: 15 }} />
+                </Tippy>
               </h3>
               <div className="form__container">
                 <form onSubmit={this.onHandleRegistration}>
@@ -117,6 +150,19 @@ class DashboardPage extends Component {
             <div className="admins__container-subs">
               <h3 className="head">
                 New Notification Subscription
+                <Tippy
+                  content="Add an email to the subscription list that gets notified when the cotact us form is submitted from the coder evoke website."
+                  placement="bottom"
+                  animation="scale-subtle"
+                  theme="light"
+                  arrow={true}
+                  duration={400}
+                  delay={[75, 0]}
+                  distance={10}
+                  style={{ padding: '10px' }}
+                >
+                  <InfoIcon style={{ fontSize: 15 }} />
+                </Tippy>
               </h3>
               <div className="form__container">
                 <form onSubmit={this.onHandleSubscription}>
@@ -133,6 +179,19 @@ class DashboardPage extends Component {
             <div className="admins__container-subs">
               <h3 className="head">
                 Current Subscriptions
+                <Tippy
+                  content="A list of all the current subscribed email accounts. These email accounts are sent a npotification when a contact us form is submitted from the website"
+                  placement="bottom"
+                  animation="scale-subtle"
+                  theme="light"
+                  arrow={true}
+                  duration={400}
+                  delay={[75, 0]}
+                  distance={10}
+                  style={{ padding: '10px' }}
+                >
+                  <InfoIcon style={{ fontSize: 15 }} />
+                </Tippy>
               </h3>
               <div className="form__container">
                 <SubscriptionContainer data={this.state.subscriptions} onDelete={this.onHandleSubscriptionDelete} />
