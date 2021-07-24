@@ -8,6 +8,9 @@
     <!-- attach css files here -->
     <link rel="stylesheet" href="assets/css/contact.css">
     <title>CODERS EVOKE </title>
+    <!-- emailjs cdn -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+
 </head>
 
 <body>
@@ -27,8 +30,8 @@
   </header>
 
 <!-- including javascript files here-->
+<script src="./js/contact.js"></script>
 <script src="./js/script.js"></script>
-
 
 
 <div class="container">
@@ -44,20 +47,22 @@
       <img src="assets/images/expertise.png" style="width:100%">
     </div>
     <div class="column">
-      <form action="/action_page.php">
-        <label for="fname"><b>Name</b></label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
-        <label for="email"><b>Email</b></label>
-        <input type="text" id="lname" name="lastname" placeholder="Your Email..">
-        <label for="country"><b>Country</b></label>
-        <select id="country" name="country">
-          <option value="australia">India</option>
-          <option value="canada">Canada</option>
-          <option value="usa">USA</option>
-        </select>
-        <label for="subject"><b>Subject</b></label>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+      <form id="contact-form">
+        <!-- id of each form -->
+        <input type="hidden" name="contact_number"> 
+
+        <label><b>Name</b></label>
+        <input type="text" name="name" placeholder="Your Name.." required>
+        <label><b>Email</b></label>
+        <input type="email" name="email" placeholder="Your Email.." required>
+        <label><b>Subject</b></label>
+        <input type="text" name="subject" placeholder="Subject.." required>
+        <label><b>Message</b></label>
+        <textarea id="message" name="message" placeholder="Write Something.." style="height:170px" required></textarea>
         <input type="submit" value="Submit">
+
+        <!-- form submission status -->
+        <span id="status"></span>
       </form>
     </div>
   </div>
