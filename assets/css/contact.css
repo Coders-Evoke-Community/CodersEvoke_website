@@ -235,7 +235,7 @@ body{
   }
   
   /* Style inputs */
-  input[type=text], select, textarea {
+  input[type=text],[type=email], select, textarea {
     width: 100%;
     padding: 12px;
     color: #000;
