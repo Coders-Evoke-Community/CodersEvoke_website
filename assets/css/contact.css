@@ -305,9 +305,10 @@ body{
     /*background:linear-gradient( to right, hsl(280, 87%, 21%), hsl(356, 100%, 65%) );*/
     background: black;
     color: rgb(0, 0, 0);
-    padding: 100px 0 30px;
-    border-top-left-radius: 125px ;
+    padding: 10px 0 20px;
+    /*border-top-left-radius: 125px ;*/
     position: sticky;
+    padding-top: 30px;
     top: 100%;
 }
 .footer-row{
@@ -437,7 +438,7 @@ form{
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid rgb(255, 255, 255);
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 
 }
 
@@ -498,6 +499,7 @@ hr{
     top: 25px;
     left: 0;
     overflow: hidden;
+    margin-top: 5px;
     
 
 }
