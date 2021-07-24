@@ -7,7 +7,7 @@ const nodemailer = require('nodemailer')
 const { mailTemplate } = require('../utils/mail/mail-template')
 
 // Create a new submission
-submissionRouter.post('/create', isAuth, async (req, res, next) => {
+submissionRouter.post('/create', async (req, res, next) => {
     const { user, submission_description, email } = req.body;
 
     const submission = new Submission({
