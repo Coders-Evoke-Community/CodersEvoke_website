@@ -1,4 +1,4 @@
-exports.mailTemplate=`
+exports.mailTemplate = `
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
 <head>
@@ -215,14 +215,14 @@ a[x-apple-data-detectors='true'] {
   <div style="line-height: 140%; text-align: left; word-wrap: break-word;">
     <p style="font-size: 14px; line-height: 140%;"><span style="font-size: 18px; line-height: 25.2px; color: #666666;">Hello,</span></p>
 <p style="font-size: 14px; line-height: 140%;">&nbsp;</p>
-<p style="line-height: 140%; font-size: 14px;"><span style="color: #666666; font-size: 14px; line-height: 19.6px;"><span style="font-size: 18px; line-height: 25.2px;">A new contact us form has been submitted from the coders evoke website. </span></span></p>
+<p style="line-height: 140%; font-size: 14px;"><span style="color: #666666; font-size: 14px; line-height: 19.6px;"><span style="font-size: 18px; line-height: 25.2px;">The following submission has been made from the contact us form in the coders evoke website. You have received this notification because you have been added as a subscriber by an administrator.</span></span></p>
 <div style="padding: 40px;">
 <p style="line-height: 140%; font-size: 14px;"><span style="color: #666666; font-size: 12px; line-height: 19.6px;"><span style="font-size: 14px; line-height: 20.2px; margin-top: 10px;">User: {{username}}</span></span></p>
 <p style="line-height: 140%; font-size: 14px;"><span style="color: #666666; font-size: 12px; line-height: 19.6px;"><span style="font-size: 14px; line-height: 20.2px;">Email: {{email}}</span></span></p>
 <p style="line-height: 140%; font-size: 14px;"><span style="color: #666666; font-size: 12px; line-height: 19.6px;"><span style="font-size: 14px; line-height: 20.2px;">Description: {{description}}</span></span></p>
 </div>
 <p style="font-size: 14px; line-height: 140%;">&nbsp;</p>
-<p style="line-height: 140%; font-size: 14px;"><span style="color: #666666; font-size: 14px; line-height: 19.6px;"><span style="font-size: 18px; line-height: 25.2px;">Please use the admin panel to view all the recent submissions. Contact an administrator in case you can't access the dashboard.</span></span></p>
+<p style="line-height: 140%; font-size: 14px;"><span style="color: #666666; font-size: 14px; line-height: 19.6px;"><span style="font-size: 18px; line-height: 25.2px;">Please use the admin panel to view all the recent submissions. Contact an administrator in case you can't access the admin panel.</span></span></p>
   </div>
 
       </td>

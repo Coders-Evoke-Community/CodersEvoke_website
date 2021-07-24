@@ -1,16 +1,17 @@
 const express = require('express')
 const Submission = require('../models/submissionModel')
+const Subscription = require('../models/subscriptionModel')
 const { isAuth } = require('../utils/util')
 const submissionRouter = express.Router();
 const nodemailer = require('nodemailer')
 const { mailTemplate } = require('../utils/mail/mail-template')
 
 // Create a new submission
-submissionRouter.post('/create', isAuth, async(req, res, next) => {
+submissionRouter.post('/create', isAuth, async (req, res, next) => {
     const { user, submission_description, email } = req.body;
 
     const submission = new Submission({
-        user, 
+        user,
         submission_description,
         email
     })
@@ -25,19 +26,26 @@ submissionRouter.post('/create', isAuth, async(req, res, next) => {
         }
     })
 
+
+    // Adding all the subscribed users to the recepients list
+    const allSubscriptions = await Subscription.find({})
+    let sendToArr = []
+    allSubscriptions.forEach((resItem) => {
+        sendToArr.push(resItem.email)
+    })
+
     const updatedTemplate = mailTemplate.replace("{{username}}", user).replace("{{email}}", email).replace("{{description}}", submission_description)
         .replace("{{date}}", new Date().toISOString())
 
-    // Todo specify the email addresses to send the email
     const mailOptions = {
         from: 'codersevokesmtp@gmail.com', // sender address
-        to: ['bodey.jovian@zoobug.org', 'peirisasel373@gmail.com', 'auraofdivinity@gmail.com', 'priyanthiss30@gmail.com'],  // list of receivers
+        to: sendToArr,  // list of receivers
         subject: 'New Contact Us Submission.', // Subject line
         html: updatedTemplate
     };
-    
+
     transporter.sendMail(mailOptions, function (err, info) {
-        if(err)
+        if (err)
             console.log(err)
     })
 
@@ -45,7 +53,7 @@ submissionRouter.post('/create', isAuth, async(req, res, next) => {
 })
 
 // Get all submissions
-submissionRouter.get('/getall', isAuth, async(req, res, next) => {
+submissionRouter.get('/getall', isAuth, async (req, res, next) => {
     const allSubmissions = await Submission.find({})
 
     res.send({

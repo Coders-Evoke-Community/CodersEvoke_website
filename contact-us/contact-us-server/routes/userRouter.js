@@ -5,6 +5,7 @@ const { generateToken, isAuth } = require('../utils/util')
 const userRouter = express.Router();
 
 userRouter.post('/register', async (req, res, next) => {
+    console.log('register hit')
     const { name, email, password } = req.body
 
     //create a new user 
@@ -17,8 +18,9 @@ userRouter.post('/register', async (req, res, next) => {
     const createdUser = await user.save();
 
     // send user obj back
-    res.send({
-        _id: createdUser._id,
+    res.json({
+        success: true,
+        message: 'Register user successfully.',
         name: createdUser.name,
         email: createdUser.email,
         token: generateToken(createdUser)
@@ -67,15 +69,14 @@ userRouter.post('/signin', async (req, res, next) => {
      if(user) {
         // use bcrypt to validate password
         if(bcrypt.compareSync(req.body.password, user.password)) {
-            res.send({
-                _id: user._id,
-                name: user.name,
-                email: user.email,
-                isAdmin: user.isAdmin,
-                token: generateToken(user)
+            return res.json({
+                success: true,
+                token: 'JWT '+generateToken(user),
+                userDetails: {
+                    name: user.name,
+                    email: user.email
+                }
             });
-
-            return;
         }
     }
     // 401 unauthorized 
