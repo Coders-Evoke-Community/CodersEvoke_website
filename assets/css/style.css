@@ -12,12 +12,9 @@
   margin: 0;
   font-family: sans-serif;
 }
-
-.top,
-#home {
-  background-color: #4a104a;
+.row{
+  width: 100%;
 }
-
 #home {
   padding-top: 10%;
   margin-bottom: 10%;
@@ -892,3 +889,163 @@ a:hover
     font-family:  'Nunito', sans-serif;
   } 
 }
+
+/* Responsiveness */
+
+/* For small screen */
+@media only screen and (max-width:600px) {
+  .row{
+    width: 100%;
+  }
+  .col{
+    min-width: 100%;
+  }
+  body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  .site-icon{
+    position: relative;
+    margin: auto 0.4em;
+  }
+  .top{
+    width: 100%;
+  }
+  .about-us{
+    padding: 1em 3em;
+  }
+  .about-img{
+    
+    max-width: 100%;
+    display: block;
+    height: auto;
+  }
+  #home{
+    padding-bottom: 3em;
+  }
+
+  #scrollToTopBtn{
+    position: fixed;
+    right: 1em;
+    bottom: 1.5em;
+  }
+}
+
+
+/* For medium screen */
+
+@media only screen and (min-width: 601px) {
+  @media screen and (max-width: 770px){
+
+    .body{
+      margin: 0;
+      padding: 0;
+    }
+  
+    .header{
+      width: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+    }
+    .site-icon{
+      position: relative;
+      top:3;
+      left: 3;
+    }
+    .row{
+      width: 100%;
+    }
+
+    .home-img {
+      position: relative;
+      margin:2em auto;
+      padding: 0;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+    }
+
+    .content-main{
+      margin-bottom: 3em;
+      text-align: center;
+    }
+    .content-main button{
+      display: flex;
+      position: relative;
+      margin:auto 0px;
+    }
+
+    #dk-footer .footer-grid{
+      display: grid;
+      grid-template-columns: 50% 50%;
+      row-gap: 2em;
+      column-gap: 4em;
+    }
+    .Aboutus{
+      min-width: 100%;
+      justify-self: stretch;
+    }
+  }
+}
+
+@media only screen and (min-width:770px){
+  @media screen and (max-width:1350px) {
+
+    .header{
+      max-width: 100%;
+      position: fixed;
+    }
+
+    .top{
+      max-width: 100%;
+    }
+
+    .home-img {
+      position: relative;
+      margin:0 auto;
+      padding: 0;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+    }
+
+    .about-img{
+      max-width: 200%;
+      display: block;
+      height: auto;
+      object-fit: contain;
+    }
+
+    .content-main{
+      margin-bottom: 3em;
+      text-align: center;
+    }
+
+    .content-main .main-heading{
+      margin: 20px;
+    }
+
+    #dk-footer .footer-grid{
+      display: grid;
+      grid-template-columns: 70% 30%;
+
+      row-gap: 2em;
+      column-gap: 4em;
+    }
+    .Aboutus{
+      min-width: 100%;
+      justify-self: stretch;
+    }
+  }
+}
+
+
+
