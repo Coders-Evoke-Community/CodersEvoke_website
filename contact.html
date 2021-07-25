@@ -34,44 +34,41 @@
   <script src="./js/script.js"></script>
 
 
-<div class="container">
-  <div style="text-align:center">
-    <br>
-    <h1>Contact Us</h1>
-    <br>
-    <h3>Feel free to get in contact with us:</h3>
-    <br>
-  </div>
-  <div class="row">
-    <div class="column">
-      <img src="assets/images/expertise.png" style="width:100%; object-fit: cover;">
+  <div class="container">
+    <div style="text-align:center">
+      <br>
+      <h1>Contact Us</h1>
+      <br>
+      <h3>Feel free to get in contact with us:</h3>
+      <br>
     </div>
-    <div class="row contact-grid">
-      <div class="column">
-        <img src="assets/images/expertise.png" style="width:100%">
-      </div>
-      <div class="column">
-        <form id="contact-form">
-          <!-- id of each form -->
-          <input type="hidden" name="contact_number">
+    <div class="row">
+      <div class="row contact-grid">
+        <div class="column">
+          <img src="assets/images/expertise.png" style="width:100%">
+        </div>
+        <div class="column">
+          <form id="contact-form">
+            <!-- id of each form -->
+            <input type="hidden" name="contact_number">
 
-          <label><b>Name</b></label>
-          <input type="text" name="name" placeholder="Your Name.." required>
-          <label><b>Email</b></label>
-          <input type="email" name="email" placeholder="Your Email.." required>
-          <label><b>Subject</b></label>
-          <input type="text" name="subject" placeholder="Subject.." required>
-          <label><b>Message</b></label>
-          <textarea id="message" name="message" placeholder="Write Something.." style="height:170px"
-            required></textarea>
-          <input type="submit" value="Submit">
+            <label><b>Name</b></label>
+            <input type="text" name="name" placeholder="Your Name.." required>
+            <label><b>Email</b></label>
+            <input type="email" name="email" placeholder="Your Email.." required>
+            <label><b>Subject</b></label>
+            <input type="text" name="subject" placeholder="Subject.." required>
+            <label><b>Message</b></label>
+            <textarea id="message" name="message" placeholder="Write Something.." style="height:170px"
+              required></textarea>
+            <input type="submit" value="Submit">
 
-          <!-- form submission status -->
-          <span id="status"></span>
-        </form>
+            <!-- form submission status -->
+            <span id="status"></span>
+          </form>
+        </div>
       </div>
     </div>
-  </div>
 </body>
-</html>
 
+</html>
