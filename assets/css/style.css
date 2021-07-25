@@ -556,7 +556,8 @@ p {
 
 .guidelines .heading {
   text-align: center;
-  padding: 1rem;
+  padding: 3rem;
+  font-size: 5rem;
 }
 
 .guidelines .box-container {
@@ -595,7 +596,9 @@ p {
 }
 
 .guidelines .box-container .box:hover {
-  transform: translateY(-1rem);
+  /* transform: translateY(-1rem); */
+  cursor: pointer;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
 }
 
 section .box .btn{
