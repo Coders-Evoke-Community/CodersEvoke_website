@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+.dashboard__container{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Lato', sans-serif;
+}
+
+.summary{
+    flex: 3;
+    border-radius: 15px;
+    background: #ffffff;
+    margin: 50px;
+    height: 80vh
+}
+
+.admins{
+    flex: 1;
+    border-radius: 15px;
+    margin: 50px;
+    height: 80vh ;
+    background: #ffffff;
+    overflow-y: auto;
+}
+
+.form__container{
+    padding: 0px 10px;
+}
+
+.btn-container{
+    text-align: center;
+    margin: 0 auto;
+}
+.reg-btn{
+    width:fit-content;
+    height: 30px;
+    margin: 10px;
+    font-family:'Lato', sans-serif;
+    color:#30487C;
+    border: none;
+    background-color:#c9dafd;
+    text-align: center;
+    text-decoration: none;
+    box-shadow:0 0 4px rgba(0,0,0,0.3);
+    transition: .3s box-shadow;
+}
+
+.reg-btn:hover{
+    background-color:#30487C;
+    color:white;
+}
+
+.head{
+    margin-left: 10px;
+}
+
+.admins__container{
+    display: flex;
+    flex-direction: column;
+}
+
+.admins__container-new{
+    flex: 1;
+    height:100%;
+
+}
+
+.admins__container-subs{
+    flex: 1;
+    height: 100%;
+
+}
