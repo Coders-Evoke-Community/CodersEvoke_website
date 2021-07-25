@@ -1,0 +1,16 @@
+
+* {
+    /* box-sizing: border-box; */
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+  }
+.image1{
+    height: 60px;
+    width: 60px;
+    padding-left: 4px;
+    padding-top: 4px;
+}  
+.heading{
+   
+}
