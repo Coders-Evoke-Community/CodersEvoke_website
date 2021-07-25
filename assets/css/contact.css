@@ -290,4 +290,9 @@ body{
       width: 100%;
       margin-top: 0;
     }
+
+    .contact-grid{
+      display: grid;
+      grid-template-columns: 1fr;
+    }
   }
