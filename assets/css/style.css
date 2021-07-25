@@ -658,7 +658,7 @@ a {
 /* Hover effect*/
 a:hover
 {
-  background-color:#da385b;
+  /* background-color:#da385b; */
  
 }
 .menu:hover li a{
