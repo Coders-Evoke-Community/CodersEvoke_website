@@ -1,75 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- attach css files here -->
+    <link rel="stylesheet" href="assets/css/contact.css" />
+    <title>CODERS EVOKE</title>
+    <!-- emailjs cdn -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"
+    ></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- attach css files here -->
-  <link rel="stylesheet" href="assets/css/contact.css">
-  <title>CODERS EVOKE </title>
-  <!-- emailjs cdn -->
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+  <body>
+    <!-- navigation bar for the page-->
+    <header class="header">
+      <div class="site-icon">
+        <a href="" class="logo"
+          ><img class="image" src="assets/images/circle-cropped.png"
+        /></a>
+      </div>
 
-</head>
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"
+        ><span class="navicon"></span
+      ></label>
+      <ul class="menu">
+        <li><a href="#work">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="#contact">Opportunities</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="#contact">Team</a></li>
+      </ul>
+    </header>
 
-<body>
+    <!-- including javascript files here-->
+    <script src="./js/contact.js"></script>
+    <script src="./js/script.js"></script>
 
-<!-- navigation bar for the page-->
-<header class="header">
-
-  <a href="#" class="logo"><img style="width: 5%; height: 5%;" class="image1" src="assets/images/circle-cropped.png"></a>
-
-
-  <!-- navigation bar for the page-->
-  <header class="header">
-    <a href="" class="logo">Coders Evoke</a>
-
-    <input class="menu-btn" type="checkbox" id="menu-btn" />
-    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-    <ul class="menu">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#careers">Contact Us</a></li>
-      <li><a href="#contact">Opportinities</a></li>
-      <li><a href="events.html">Events</a></li>
-      <li><a href="#contact">Team</a></li>
-    </ul>
-  </header>
-
-  <!-- including javascript files here-->
-  <script src="./js/contact.js"></script>
-  <script src="./js/script.js"></script>
-
-
-  <div class="container">
-    <div style="text-align:center">
-      <br>
-      <h1>Contact Us</h1>
-      <br>
-      <h3>Feel free to get in contact with us:</h3>
-      <br>
-    </div>
-    <div class="row">
-      <div class="row contact-grid">
+    <div class="container">
+      <div style="text-align: center">
+        <br />
+        <h1>Contact Us</h1>
+        <br />
+        <h3>Feel free to get in contact with us:</h3>
+        <br />
+      </div>
+      <div class="row">
         <div class="column">
-          <img src="assets/images/expertise.png" style="width:100%">
+          <img
+            src="assets/images/expertise.png"
+            style="width: 100%; object-fit: cover"
+          />
         </div>
         <div class="column">
           <form id="contact-form">
             <!-- id of each form -->
-            <input type="hidden" name="contact_number">
+            <input type="hidden" name="contact_number" />
 
             <label><b>Name</b></label>
-            <input type="text" name="name" placeholder="Your Name.." required>
+            <input type="text" name="name" placeholder="Your Name.." required />
             <label><b>Email</b></label>
-            <input type="email" name="email" placeholder="Your Email.." required>
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email.."
+              required
+            />
             <label><b>Subject</b></label>
-            <input type="text" name="subject" placeholder="Subject.." required>
+            <input
+              type="text"
+              name="subject"
+              placeholder="Subject.."
+              required
+            />
             <label><b>Message</b></label>
-            <textarea id="message" name="message" placeholder="Write Something.." style="height:170px"
-              required></textarea>
-            <input type="submit" value="Submit">
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Write Something.."
+              style="height: 170px"
+              required
+            ></textarea>
+            <input type="submit" value="Submit" />
 
             <!-- form submission status -->
             <span id="status"></span>
@@ -77,6 +93,5 @@
         </div>
       </div>
     </div>
-</body>
-
+  </body>
 </html>
