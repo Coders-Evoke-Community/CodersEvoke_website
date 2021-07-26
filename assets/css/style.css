@@ -610,7 +610,7 @@ a {
   position: fixed;
   width: 100%;
   z-index: 3;
-  border-radius: 0 1.8rem;
+  border-radius: 0 0 1.5rem 0;
   border: none;
   top: 0px;
 }
