@@ -1,98 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- attach css files here -->
-    <link rel="stylesheet" href="assets/css/contact.css" />
-    <title>CODERS EVOKE</title>
-    <!-- emailjs cdn -->
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"
-    ></script>
-   
-  </head>
 
-  <body>
-    <!-- navigation bar for the page-->
-    <header class="header">
-      <div class="site-icon">
-        <a href="" class="logo"
-          ><img class="image" src="assets/images/circle-cropped.png"
-        /></a>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- attach css files here -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"
+    integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    integrity="sha384-tKLJeE1ALTUwtXlaGjJYM3sejfssWdAaWR2s97axw4xkiAdMzQjtOjgcyw0Y50KU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="assets/css/contact.css" />
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- <link rel="stylesheet" href="assets\css\event.css"> -->
+  <title>CODERS EVOKE</title>
+  <style>
+    footer {
+      display: flex;
+      justify-content: center;
+      place-items: center;
+      width: 100%;
+      background-color: #000;
+      bottom: 0;
+      position: relative;
+      height: 100px;
+    }
+
+    p {
+
+      color: #fff;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center;
+      padding: 5px;
+    }
+  </style>
+  <!-- emailjs cdn -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+</head>
+
+<body>
+  <!-- navigation bar for the page-->
+  <header class="header">
+    <div class="site-icon">
+      <a href="" class="logo"><img class="image" src="assets/images/circle-cropped.png" /></a>
+    </div>
+
+
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li><a href="#work">Home</a></li>
+      <li><a href="/about.html">About</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+      <li><a href="#contact">Opportunities</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="team.html">Team</a></li>
+    </ul>
+  </header>
+
+  <!-- including javascript files here-->
+  <script src="./js/contact.js"></script>
+  <script src="./js/script.js"></script>
+
+  <div class="bodybg">
+    <div style="text-align: center">
+      <br />
+      <h1>Contact Us</h1>
+      <br />
+      <h3>Feel free to get in contact with us:</h3>
+      <br />
+    </div>
+    <div class="row">
+      <div class="column">
+        <img src="assets/images/expertise.png" style="width: 100%; object-fit: cover" />
+
       </div>
+      <div class="column">
+        <form id="contact-form">
+          <!-- id of each form -->
+          <input type="hidden" name="contact_number" />
 
-      <input class="menu-btn" type="checkbox" id="menu-btn" />
-      <label class="menu-icon" for="menu-btn"
-        ><span class="navicon"></span
-      ></label>
-      <ul class="menu">
-        <li><a href="#work">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-        <li><a href="#contact">Opportunities</a></li>
-        <li><a href="events.html">Events</a></li>
-        <li><a href="#contact">Team</a></li>
-      </ul>
-    </header>
+          <label><b>Name</b></label>
+          <input type="text" name="name" placeholder="Your Name.." required />
+          <label><b>Email</b></label>
+          <input type="email" name="email" placeholder="Your Email.." required />
+          <label><b>Subject</b></label>
+          <input type="text" name="subject" placeholder="Subject.." required />
+          <label><b>Message</b></label>
+          <textarea id="message" name="message" placeholder="Write Something.." style="height: 170px"
+            required></textarea>
+          <input type="submit" value="Submit" />
 
-    <!-- including javascript files here-->
-    <script src="./js/contact.js"></script>
-    <script src="./js/script.js"></script>
-
-    <div class="bodybg">   
-      <div style="text-align: center">
-        <br />
-        <h1>Contact Us</h1>
-        <br />
-        <h3>Feel free to get in contact with us:</h3>
-        <br />
-      </div>
-      <div class="row">
-        <div class="column">
-          <img
-            src="assets/images/expertise.png"
-            style="width: 100%; object-fit: cover"
-          />
-        </div>
-        <div class="column">
-          <form id="contact-form">
-            <!-- id of each form -->
-            <input type="hidden" name="contact_number" />
-
-            <label><b>Name</b></label>
-            <input type="text" name="name" placeholder="Your Name.." required />
-            <label><b>Email</b></label>
-            <input
-              type="email"
-              name="email"
-              placeholder="Your Email.."
-              required
-            />
-            <label><b>Subject</b></label>
-            <input
-              type="text"
-              name="subject"
-              placeholder="Subject.."
-              required
-            />
-            <label><b>Message</b></label>
-            <textarea
-              id="message"
-              name="message"
-              placeholder="Write Something.."
-              style="height: 170px"
-              required
-            ></textarea>
-            <input type="submit" value="Submit" />
-
-            <!-- form submission status -->
-            <span id="status"></span>
-          </form>
-        </div>
+          <!-- form submission status -->
+          <span id="status"></span>
+        </form>
       </div>
     </div>
-  </body>
+  </div>
+  <footer>
+    <div class="sec" style="padding: 10px;">
+      <h2 style="color: #fff; text-align: center; padding-bottom: 10px;">Follow Us</h2>
+
+      <ul style="align-items: center; display: flex; justify-content: center;" class="sci">
+        <li>
+          <a href="" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        </li>
+
+        <li>
+          <a href="" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        </li>
+
+        <li>
+          <a href="" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        </li>
+
+        <li>
+          <a href="" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
 </html>

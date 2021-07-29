@@ -690,6 +690,7 @@ a:hover {
   padding: 28px 20px;
   position: relative;
   user-select: none;
+  float: right;
 }
 
 .header .menu-icon .navicon {
