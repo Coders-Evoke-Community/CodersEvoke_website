@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(255, 255, 255);
+  background-color: #ffffff;
 }
 
 :root {
@@ -15,6 +15,15 @@ body {
   padding: 0;
   margin: 0;
   font-family: sans-serif;
+}
+
+.bodybg{
+  background-color: #f9e8f9;
+    margin-top: 4%;
+    border-radius: 5px;
+    height: 100%;
+    margin-bottom: 0%;
+    padding: 10px;
 }
 
 .top,
@@ -78,7 +87,7 @@ body {
   position: fixed;
   width: 100%;
   z-index: 3;
-  border-radius: 0 1.8rem;
+  border-radius: 0 0 1.5rem 0;
   border: none;
   top: 0px;
 }
@@ -107,7 +116,7 @@ body {
 
 .header li a:hover,
 .header .menu-btn:hover {
-  background-color: #da385b;
+  /* background-color: #da385b; */
   transform: scale(1);
   box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.5);
 }
@@ -246,6 +255,9 @@ textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+  border:none;
+  outline:none;
+  border-radius:0.5rem;
 }
 
 input[type="submit"] {
@@ -254,6 +266,7 @@ input[type="submit"] {
   padding: 12px 20px;
   border: none;
   cursor: pointer;
+  border-radius:0.5rem;
 }
 
 input[type="submit"]:hover {
