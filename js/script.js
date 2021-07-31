@@ -1,3 +1,9 @@
+//AOS script
+AOS.init({
+  offset: 200,
+  duration: 1200
+});
+
 // navigation bar logic 
 const layers = document.querySelector(".layers");
 const navLinks = document.querySelector(".nav-links");

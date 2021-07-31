@@ -59,6 +59,10 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+    
+    <!-- AOS Data -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <!-- <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff"> -->
@@ -92,10 +96,10 @@
     </header>
     <h2 id="font">Innovation | Technology | Creativity</h2>
     <div>
-        <h3 id="events">Upcoming Events</h3>
+        <h3 id="events" data-aos="zoom-out-down">Upcoming Events</h3>
         <div class="main">
             <ul class="cards">
-                <li class="cards_item">
+                <li class="cards_item" data-aos="zoom-out-down">
                     <div class="card">
                         <div id="card_image"><img src="assets/new images/new2.png.png"></div>
                         <div class="card_content">
@@ -107,7 +111,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="cards_item">
+                <li class="cards_item" data-aos="zoom-out-down">
                     <div class="card">
                         <div id="card_image"><img src="assets/new images/new4.png.png"></div>
                         <div class="card_content">
@@ -119,7 +123,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="cards_item">
+                <li class="cards_item" data-aos="zoom-out-down">
                     <div class="card">
                         <div id="card_image"><img src="assets/new images/new1.png.png"></div>
                         <div class="card_content">
@@ -131,7 +135,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="cards_item">
+                <li class="cards_item" data-aos="zoom-out-down">
                     <div class="card">
                         <div id="card_image"><img src="assets/new images/new1.png.png"></div>
                         <div class="card_content">
@@ -143,7 +147,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="cards_item">
+                <li class="cards_item" data-aos="zoom-out-down">
                     <div class="card">
                         <div id="card_image"><img src="assets/new images/new2.png.png"></div>
                         <div class="card_content">
@@ -155,7 +159,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="cards_item">
+                <li class="cards_item" data-aos="zoom-out-down">
                     <div class="card">
                         <div id="card_image"><img src="assets/new images/new4.png.png"></div>
                         <div class="card_content">
@@ -171,10 +175,10 @@
         </div>
     </div>
     <div>
-        <h3 id="events">Past Events</h3>
+        <h3 id="events" data-aos="zoom-out-down">Past Events</h3>
         <div class="main">
             <ul class="cards">
-                <li class="cards_item">
+                <li class="cards_item" data-aos="zoom-out-down">
                     <div class="card">
                         <div id="card_image"><img src="assets/new images/techno.png.png"></div>
                         <div class="card_content">
@@ -186,7 +190,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="cards_item">
+                <li class="cards_item" data-aos="zoom-out-down">
                     <div class="card">
                         <div id="card_image"><img src="assets/new images/tech,png.png"></div>
                         <div class="card_content">
@@ -198,7 +202,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="cards_item">
+                <li class="cards_item"data-aos="zoom-out-down">
                     <div class="card">
                         <div id="last-image"><img src="assets/new images/new.png.png"></div>
                         <div class="card_content">
@@ -242,5 +246,10 @@
 
 
 </body>
-
+<script>
+    AOS.init({
+        offset: 200,
+        duration: 1200
+    });
+</script>
 </html>
