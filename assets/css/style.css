@@ -6,6 +6,22 @@
   );
 }
 
+::-webkit-scrollbar{
+  width: 15px;
+}
+::-webkit-scrollbar-track{
+  background-color: #4f4f4f;
+  border-radius: 35px;
+}
+::-webkit-scrollbar-thumb{
+  background: #4a104a;
+  border-radius: 35px;
+}
+::-webkit-scrollbar-thumb:hover{
+  background: linear-gradient( to right, hsl(280, 39%, 43%), hsl(356, 72%, 50%) );
+}
+
+
 * {
   /* box-sizing: border-box; */
   padding: 0;
@@ -646,7 +662,7 @@ a {
 }
 /* Hover effect*/
 a:hover {
-  /* background-color:#da385b; */
+  background-color:#da385b;
 }
 .card {
   transition: all 0.5s ease;
@@ -690,6 +706,7 @@ a:hover {
   padding: 28px 20px;
   position: relative;
   user-select: none;
+  float: right;
 }
 
 .header .menu-icon .navicon {
@@ -770,6 +787,12 @@ a:hover {
     margin-bottom: 10%;
   }
 }
+.main-heading{
+  padding-left:1.5rem;
+  font-size:37px;
+  color: #fff;
+}
+
 
 /* @media (min-width: 20em) {
   .header{
@@ -801,6 +824,8 @@ a:hover {
     float: left;
   }
 
+  
+
   #home {
     margin: 0 auto;
     text-align: center;
@@ -815,6 +840,7 @@ a:hover {
   #view-btn {
     margin: 0 auto;
     margin-bottom: 1rem;
+    margin-left: 2rem;
   }
 
   .about-img {
@@ -828,11 +854,14 @@ a:hover {
     font-family: "Poppins", sans-serif;
     color: #5199db;
   }
-
+  .guidelines .heading{
+    padding: 0 ;
+  }
   footer {
     /* text-align: center; */
     margin-top: 1em;
     padding: 10px;
+    border-radius: 1rem 1rem 0 0;
   }
 
   footer .container {
@@ -861,6 +890,7 @@ a:hover {
     text-decoration-color: none;
     padding: 0;
     margin: 0;
+    line-height:2rem;
   }
 
   footer .container .sec.QuickLinks ul li a {
@@ -887,6 +917,25 @@ a:hover {
 
 /* For small screen */
 @media only screen and (max-width: 600px) {
+
+  .header{
+    border-radius: 0 0 1.5rem 1.5rem;
+  }
+  .image{
+    width:50%;
+    margin: 0.5rem 0.3rem;
+  }
+  .header .menu-icon{
+    display:flex;
+    justify-content:flex-end;
+  }
+
+  .header .menu{
+  
+    padding: 0 0 ;
+    text-align: center;
+  }
+  
   .row {
     width: 100%;
   }
@@ -927,6 +976,10 @@ a:hover {
     position: fixed;
     right: 1em;
     bottom: 1.5em;
+  }
+  .sci{
+    justify-content:center;
+    margin-top: 2rem;
   }
 }
 

@@ -3,6 +3,10 @@
 *::after {
   box-sizing: border-box;
 }
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 h2{
     text-align: center;
     padding-top: 100px;
