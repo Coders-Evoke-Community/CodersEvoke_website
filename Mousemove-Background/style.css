@@ -19,7 +19,7 @@ header
     top: 0;
     left: 0;
     width: 100%;
-    padding: 30px 100px;
+    padding: 30px 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,6 +33,9 @@ header .logo
     font-size: 2em;
     text-transform: uppercase;
     letter-spacing: 2px;
+    width:6%;
+    height:6%;
+    padding:1%;
 }
 header ul{
     display: flex;
@@ -152,3 +155,9 @@ header ul li a.active
     background: linear-gradient(to top, #1c0522 ,transparent);
     z-index: 1000;
 }
+
+.image1{
+    height: 6%;
+    width: 6%;
+   padding:1%;
+}  
