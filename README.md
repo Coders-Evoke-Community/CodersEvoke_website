@@ -129,8 +129,6 @@ Head over to [Contributing Guidelines](https://github.com/Coders-Evoke-Community
     </tbody>
 </table> -->
 
----
-
 ### Credit goes to these people:✨
 
 <table>
@@ -143,7 +141,6 @@ Head over to [Contributing Guidelines](https://github.com/Coders-Evoke-Community
 	</tr>
 </table>
 
-</br>
 </br>
 </br>
 
