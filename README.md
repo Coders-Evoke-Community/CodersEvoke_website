@@ -90,7 +90,7 @@ Head over to [Contributing Guidelines](https://github.com/Coders-Evoke-Community
 
 ## Color Scheme for website
 
-![](https://github.com/Coders-Evoke-Community/CodersEvoke_website/blob/main/color%20scheme.png)
+![](https://github.com/Coders-Evoke-Community/CodersEvoke_website/blob/main/color20%scheme.png)
 
 ---
 
