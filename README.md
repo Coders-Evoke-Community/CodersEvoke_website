@@ -88,9 +88,11 @@ Head over to [Contributing Guidelines](https://github.com/Coders-Evoke-Community
 └───Pages                      #All HTML Files
 ```
 
-## Color Scheme for website
+<p align="center"><b>Color Scheme for website</b></p>
 
-![](https://github.com/Coders-Evoke-Community/CodersEvoke_website/blob/main/color20%scheme.png)
+<p align="center">
+<img src="colorscheme.png" align width="500" >
+</p>
 
 ---
 
