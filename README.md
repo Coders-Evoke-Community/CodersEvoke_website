@@ -88,9 +88,11 @@ Head over to [Contributing Guidelines](https://github.com/Coders-Evoke-Community
 └───Pages                      #All HTML Files
 ```
 
-## Color Scheme for website
+<p align="center"><b>Color Scheme for website</b></p>
 
-![](https://github.com/Coders-Evoke-Community/CodersEvoke_website/blob/main/color%20scheme.png)
+<p align="center">
+<img src="colorscheme.png" align width="500" >
+</p>
 
 ---
 
@@ -111,7 +113,7 @@ Head over to [Contributing Guidelines](https://github.com/Coders-Evoke-Community
 
 ---
 
-<h1 align=center> Mentors ✨</h1>
+<!-- <h1 align=center> Mentors ✨</h1>
 <p align="center">
 
 <table align="center">
@@ -127,9 +129,7 @@ Head over to [Contributing Guidelines](https://github.com/Coders-Evoke-Community
             </td>
         </tr>
     </tbody>
-</table>
-
----
+</table> -->
 
 ### Credit goes to these people:✨
 
@@ -143,7 +143,6 @@ Head over to [Contributing Guidelines](https://github.com/Coders-Evoke-Community
 	</tr>
 </table>
 
-</br>
 </br>
 </br>
 
