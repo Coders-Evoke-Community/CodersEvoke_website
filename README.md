@@ -6,7 +6,8 @@
 
 Coders Evoke is all about sharing knowledge, posting achievements, participating in hackathons, discussions and many more!
 We have a wide variety of topics however we’re always listening to suggestions from the community.
-And here , we came up with an idea of developing a website for the community as an open-source project so that help others to start with open source .
+
+And here , we came up with an idea of developing a website for the community as an open-source project so that help others to start with open source
 
 <h3 align="center">
     <a href="https://discord.gg/FZusE7FH4q">👋 join our discord community <strong>Coders Evoke</strong> </a>
