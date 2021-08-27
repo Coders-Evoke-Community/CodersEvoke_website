@@ -77,6 +77,7 @@
 }
 #view-btn:hover {
   background-color: #5199db;
+  font-weight: bold;
   color: #4a104a;
 }
 .content-main {
@@ -202,6 +203,7 @@ footer p {
 
 .sci li a:hover {
   background: #db198a;
+  font-weight: bold;
 }
 
 .sci li a .fa {
@@ -233,6 +235,7 @@ footer p {
   color: #fff;
   padding-left: 5px;
   transition: all 0.5s ease;
+  font-weight: bold;
 }
 
 footer .container .sec h2 {
@@ -538,6 +541,7 @@ p {
 }
 
 .dk-footer-form button:hover {
+  font-weight: bold;
   cursor: pointer;
 }
 
@@ -663,6 +667,7 @@ a {
 /* Hover effect*/
 a:hover {
   background-color:#da385b;
+  font-weight: bold;
 }
 .card {
   transition: all 0.5s ease;
