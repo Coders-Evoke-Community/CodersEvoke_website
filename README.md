@@ -157,8 +157,7 @@ Licensed under the [MIT License](LICENSE).
 <hr>
 
 <h3 align="center">
-   something cool must try: <a href="https://github.com/rohan-kulkarni-25/Tribute-To-Contributors">Tribute-To-Contributors Repository </a>
-   <br> If u are a begineer and looking for contibutions then you can refer <a href="https://github.com/Ayan-thecodeking/Here-Contributions-Begins.git">here contributions begin repository </a> </h3>
+    If u are a begineer and looking for contibutions then you can refer <a href="https://github.com/Ayan-thecodeking/Here-Contributions-Begins.git">here contributions begin repository </a> </h3>
 
 </br>
 </br>
