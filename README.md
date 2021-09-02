@@ -6,7 +6,11 @@
 
 Coders Evoke is all about sharing knowledge, posting achievements, participating in hackathons, discussions and many more!
 We have a wide variety of topics however we’re always listening to suggestions from the community.
-And here , we came up with an idea of developing a website for the community as an open-source project so that help others to start with open source .
+
+And here , we came up with an idea of developing a website for the community as an open-source project so that help others to start with open source
+
+
+REDESIGNING of our website is on ....DEsigns are already added in issues sections just refer that and complete the task ....make it full responsive . 
 
 <h3 align="center">
     <a href="https://discord.gg/FZusE7FH4q">👋 join our discord community <strong>Coders Evoke</strong> </a>
@@ -153,8 +157,7 @@ Licensed under the [MIT License](LICENSE).
 <hr>
 
 <h3 align="center">
-   something cool must try: <a href="https://github.com/rohan-kulkarni-25/Tribute-To-Contributors">Tribute-To-Contributors Repository </a>
-   <br> If u are a begineer and looking for contibutions then you can refer <a href="https://github.com/Ayan-thecodeking/Here-Contributions-Begins.git">here contributions begin repository </a> </h3>
+    If u are a begineer and looking for contibutions then you can refer <a href="https://github.com/Ayan-thecodeking/Here-Contributions-Begins.git">here contributions begin repository </a> </h3>
 
 </br>
 </br>
