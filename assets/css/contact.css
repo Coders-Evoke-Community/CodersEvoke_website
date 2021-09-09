@@ -95,6 +95,7 @@ body {
 .header ul {
   margin: 0;
   padding: 0;
+  justify-content: center;
   list-style: none;
   overflow: hidden;
 }
@@ -102,6 +103,7 @@ body {
 .header li a {
   display: block;
   border-radius: 10px;
+  justify-content: center;
   text-decoration: none;
   transition: 0.2s all;
   color: #ffffff;
