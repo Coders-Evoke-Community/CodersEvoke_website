@@ -85,6 +85,7 @@ body {
 .header {
   background-image: var(--Linear-gradient2);
   position: fixed;
+  justify-content: center;
   width: 100%;
   z-index: 3;
   border-radius: 0 0 1.5rem 0;
