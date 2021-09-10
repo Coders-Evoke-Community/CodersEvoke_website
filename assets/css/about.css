@@ -1,15 +1,14 @@
-
 * {
     /* box-sizing: border-box; */
     padding: 0;
     margin: 0;
     font-family: sans-serif;
-  }
-.image1{
-    height: 6%;
-    width: 6%;
-   padding:1%;
-}  
-.heading{
-   
 }
+
+.image1 {
+    height: 60px;
+    width: 60px;
+    padding: 5px;
+}
+
+.heading {}
