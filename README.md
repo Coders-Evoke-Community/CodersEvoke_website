@@ -151,7 +151,7 @@ Head over to [Contributing Guidelines](https://github.com/Coders-Evoke-Community
 
 ## License
 
-Licensed under the [MIT License](LICENSE).
+<img src="https://img.shields.io/github/license/Coders-Evoke-Community/CodersEvoke_website?style=for-the-badge&color=blue">
 
 <hr>
 
