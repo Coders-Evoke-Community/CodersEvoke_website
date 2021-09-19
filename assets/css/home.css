@@ -124,10 +124,40 @@ body {
     transform: translate(-50%,-50%);
     max-width: 20rem;
 }
+.footer{
+  max-height: 640px;
+}
 footer{
+  padding-left: 2rem;
+  padding-right: 1rem;
   position: relative;
-  display:flex;
-  
+  top:-23rem;
+}
+ul{
+  list-style: none;
+}
+.foot-con{
+  width: 30%;
+  padding-right: 1.5rem;
+}
+.foot-list-1{
+  width: 15%;
+}
+.social-btn .fab{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.foot-list-2{
+  width: 15%;
+}
+.newsletter{
+  width:30%;
+}
+.newsletter input{
+  border-radius: 20px;
+}
+form .btn-danger{
+  background-color: #BB0D39;
 }
 
 @media(max-width:900px){
