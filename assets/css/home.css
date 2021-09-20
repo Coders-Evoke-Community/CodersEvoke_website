@@ -25,12 +25,17 @@ body {
 .collapse {
   margin-left: 55%;
 }
-
 .nav-item {  
   margin-left: 15px;
   margin-right: 15px;
+  font-weight: 600;
 }
-
+.nav-item a:hover{
+  color: #E12454 !important;
+  background-color: white;
+  font-weight: 600;
+  border-radius: 10px;
+}
 .card1 {
   color: #e12454;
   border: none;
@@ -42,7 +47,7 @@ body {
 
 .card-title {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 4.3rem;
 }
 .card-text {
@@ -166,7 +171,10 @@ form .btn-danger{
   }
   .card-body{
     text-align: center;
-    padding-left: 1.5rem;
+    padding-left: 1rem;
+  }
+  .card-body .buttom{
+    margin-left:0rem;
   }
   .collapse{
     margin-left: 0px;
@@ -182,20 +190,54 @@ form .btn-danger{
   .card-title{
     font-size: 2.2rem;
   }
+  .features h1{
+    font-size: 2rem;
+    margin-top: 4rem;
+    padding-left: 0px;
+  }
+  .features .d-flex{
+    height: 15rem;
+  }
   .mob-disp{
-    margin-top:0.5rem;
     display:block;
-    width: 15rem;
+    width: 17rem;
     height: 10rem;
-    font-size:1.5rem;
+    font-size:1.7rem;
   }
   .content{
     top: -9rem;
     left: 1rem;
   }
-  .mob-view{
-    display:block;
-    width: 16rem;
-    height: 12rem;
+  .foot-con{
+    padding-right: 0rem;
   }
+  .foot-con h2{
+    font-size: 2.5rem;
+  }
+  .mob-disp1{
+    background-color:#E12454;
+    top: 0rem;
+    display: block !important;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  footer h3{
+    font-size: 2rem;
+  }
+  ul{
+    padding-left: 0rem;
+  } 
+  .foot-con, .foot-list-1, .foot-list-2, .newsletter{
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  .marg{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
 }
