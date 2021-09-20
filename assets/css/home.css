@@ -20,9 +20,8 @@ body {
 .desk-hid {
   display: none;
 }
-
-.collapse {
-  margin-left: 55%;
+.navbar-collapse{
+  flex-grow: 0;
 }
 .nav-item {
   margin-left: 15px;
@@ -74,11 +73,9 @@ body {
   border-radius: 25px;
 }
 
-.amico {
-  margin-left: 25%;
-  width: 0%;
+.amico{
+  margin-left:12%;
 }
-
 /* features section starts */
 
 .features h1 {
@@ -129,13 +126,14 @@ body {
   max-width: 20rem;
 }
 .footer {
-  max-height: 640px;
+  max-height: 30rem;
 }
 footer {
   padding-left: 2rem;
   padding-right: 1rem;
   position: relative;
   top: -23rem;
+  background-color: #e12454;
 }
 ul {
   list-style: none;
