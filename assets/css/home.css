@@ -7,7 +7,6 @@ body {
 
 .background {
   position: relative;
-  /* left:10%; */
   left: 40%;
   z-index: 1;
 }
@@ -18,20 +17,20 @@ body {
   z-index: 100;
   width: 100%;
 }
-.desk-hid{
+.desk-hid {
   display: none;
 }
 
 .collapse {
   margin-left: 55%;
 }
-.nav-item {  
+.nav-item {
   margin-left: 15px;
   margin-right: 15px;
   font-weight: 600;
 }
-.nav-item a:hover{
-  color: #E12454 !important;
+.nav-item a:hover {
+  color: #e12454 !important;
   background-color: white;
   font-weight: 600;
   border-radius: 10px;
@@ -58,12 +57,12 @@ body {
   font-size: 1.3rem;
 }
 .card1 .button {
-    font-size: 1.3rem;
-    color: white;
-    font-family: 'Roboto',sans-serif;
-    padding: 10px 30px 10px 30px;
-    margin-top: 3rem;
-    margin-left: 0.7rem;
+  font-size: 1.3rem;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  padding: 10px 30px 10px 30px;
+  margin-top: 3rem;
+  margin-left: 0.7rem;
   background: linear-gradient(
     270deg,
     #76127e 0%,
@@ -83,139 +82,139 @@ body {
 /* features section starts */
 
 .features h1 {
-    color:#e12454;
-    margin-top: 2rem;
-    margin-bottom: 5rem;
-    padding-left: 30px;
+  color: #e12454;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  padding-left: 30px;
 }
 
-.first{
-    margin-right: 5rem;
+.first {
+  margin-right: 5rem;
 }
 
-.second{
-    margin-left:5rem;
+.second {
+  margin-left: 5rem;
 }
 
-.box-background{
-    position: relative;
-    width: 25rem;
-    height:15rem;
-    background-color: #C13660E0;
-    border-radius: 30px;
-    z-index: 1;
+.box-background {
+  position: relative;
+  width: 25rem;
+  height: 15rem;
+  background-color: #c13660e0;
+  border-radius: 30px;
+  z-index: 1;
 }
 
-.content{
-    width: 25rem;
-    height:15rem;
-    top: -12rem;
-    left: 3rem;
-    position: relative;
-    border: 4px solid #F5700F;
-    background-color: #FFFFFF;
-    z-index: 2;
-    border-radius:30px;
-    color:#F5700F;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    font-size: 2rem;
+.content {
+  width: 25rem;
+  height: 15rem;
+  top: -12rem;
+  left: 3rem;
+  position: relative;
+  border: 4px solid #f5700f;
+  background-color: #ffffff;
+  z-index: 2;
+  border-radius: 30px;
+  color: #f5700f;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
 }
 
-.content p{
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    max-width: 20rem;
+.content p {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 20rem;
 }
-.footer{
+.footer {
   max-height: 640px;
 }
-footer{
+footer {
   padding-left: 2rem;
   padding-right: 1rem;
   position: relative;
-  top:-23rem;
+  top: -23rem;
 }
-ul{
+ul {
   list-style: none;
 }
-.foot-con{
+.foot-con {
   width: 30%;
   padding-right: 1.5rem;
 }
-.foot-list-1{
+.foot-list-1 {
   width: 15%;
 }
-.social-btn .fab{
+.social-btn .fab {
   margin-left: 5px;
   margin-right: 5px;
 }
-.foot-list-2{
+.foot-list-2 {
   width: 15%;
 }
-.newsletter{
-  width:30%;
+.newsletter {
+  width: 30%;
 }
-.newsletter input{
+.newsletter input {
   border-radius: 20px;
 }
-form .btn-danger{
-  background-color: #BB0D39;
+form .btn-danger {
+  background-color: #bb0d39;
 }
 
-@media(max-width:900px){
-  .container-fluid{
+@media (max-width: 900px) {
+  .container-fluid {
     background-color: #e12454;
   }
-  .card-body{
+  .card-body {
     text-align: center;
     padding-left: 1rem;
   }
-  .card-body .buttom{
-    margin-left:0rem;
+  .card-body .buttom {
+    margin-left: 0rem;
   }
-  .collapse{
+  .collapse {
     margin-left: 0px;
     background-color: #e12454;
   }
-  .mob-hid{
+  .mob-hid {
     display: none;
   }
-  .home1{
+  .home1 {
     box-sizing: border-box;
     position: relative;
   }
-  .card-title{
+  .card-title {
     font-size: 2.2rem;
   }
-  .features h1{
+  .features h1 {
     font-size: 2rem;
     margin-top: 4rem;
     padding-left: 0px;
   }
-  .features .d-flex{
+  .features .d-flex {
     height: 15rem;
   }
-  .mob-disp{
-    display:block;
+  .mob-disp {
+    display: block;
     width: 17rem;
     height: 10rem;
-    font-size:1.7rem;
+    font-size: 1.7rem;
   }
-  .content{
+  .content {
     top: -9rem;
     left: 1rem;
   }
-  .foot-con{
+  .foot-con {
     padding-right: 0rem;
   }
-  .foot-con h2{
+  .foot-con h2 {
     font-size: 2.5rem;
   }
-  .mob-disp1{
-    background-color:#E12454;
+  .mob-disp1 {
+    background-color: #e12454;
     top: 0rem;
     display: block !important;
     text-align: center;
@@ -224,20 +223,22 @@ form .btn-danger{
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
-  footer h3{
+  footer h3 {
     font-size: 2rem;
   }
-  ul{
+  ul {
     padding-left: 0rem;
-  } 
-  .foot-con, .foot-list-1, .foot-list-2, .newsletter{
+  }
+  .foot-con,
+  .foot-list-1,
+  .foot-list-2,
+  .newsletter {
     width: 100%;
     margin-top: 3rem;
     margin-bottom: 3rem;
   }
-  .marg{
+  .marg {
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
-
 }
