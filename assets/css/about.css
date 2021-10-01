@@ -28,6 +28,10 @@
       font-weight:bold;
       font-size:16px;
     }
+    .nav-links a:hover{
+      text-decoration: underline;
+      
+    }
     .burger{
       display:none;
     }
@@ -322,4 +326,7 @@
   .nav-logo{
     width:10%;
     height:10%;
+  }
+  .image-2{
+    visibility:hidden;
   }
