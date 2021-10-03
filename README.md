@@ -4,13 +4,12 @@
 
 ## Coders Evoke
 
-Coders Evoke is all about sharing knowledge, posting achievements, participating in hackathons, discussions and many more!
-We have a wide variety of topics however we’re always listening to suggestions from the community.
+Coders Evoke is all about sharing knowledge, posting achievements, participating in hackathons, discussions and much more!
+We have a wide variety of topics however we’re always open to suggestions from the community.
 
-And here , we came up with an idea of developing a website for the community as an open-source project so that help others to start with open source
+We have come up with an initiative of developing a website for the community as an open-source project to help others get started with open source.
 
-
-REDESIGNING of our website is on ....DEsigns are already added in issues sections just refer that and complete the task ....make it full responsive . 
+The redesigning of the website has already started. You can find the UI mockups in the Issues section. Refer to the issue and make sure the webpage or part of webpage is **Fully Responsive**.
 
 <h3 align="center">
     <a href="https://discord.gg/FZusE7FH4q">👋 join our discord community <strong>Coders Evoke</strong> </a>
@@ -64,7 +63,7 @@ git commit -m "<your_commit_message>"
 git push origin <branch-name>
 ```
 
-**8.** Create a [PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) !
+**8.** Create a [Pull Request/PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) !
 
 **9.** **Congratulations!** Sit and relax, you've made your contribution to CodersEvoke Website.
 
@@ -73,7 +72,7 @@ git push origin <branch-name>
 - If no response is recieved from you within 7 days of assigning the issue, then the issue will be unassigned.
 - If an issue doesn't gets assignee within 7 days, it will get assigned to the maintainer of repository
 
-## Want to Contribute to this repository?
+## Do you Want to Contribute to this repository?
 
 Head over to [Contributing Guidelines](https://github.com/Coders-Evoke-Community/CodersEvoke_website/blob/main/CONTRIBUTION.md) to know more!
 
@@ -152,12 +151,12 @@ Head over to [Contributing Guidelines](https://github.com/Coders-Evoke-Community
 
 ## License
 
-Licensed under the [MIT License](LICENSE).
+<img src="https://img.shields.io/github/license/Coders-Evoke-Community/CodersEvoke_website?style=for-the-badge&color=blue">
 
 <hr>
 
 <h3 align="center">
-    If u are a begineer and looking for contibutions then you can refer <a href="https://github.com/Ayan-thecodeking/Here-Contributions-Begins.git">here contributions begin repository </a> </h3>
+    If you  are a beginner and looking to contribute, then you can refer <a href="https://github.com/Ayan-thecodeking/Here-Contributions-Begins.git">CONTRIBUTION.MD </a> </h3>
 
 </br>
 </br>
