@@ -85,6 +85,20 @@ body {
   padding-left: 30px;
 }
 
+
+.youtube h1 {
+  color: #e12454;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  padding-left: 30px;
+}
+
+.videos{
+  display: inline-block;
+  position: relative;
+  padding-left: 220px;
+}
+
 .first {
   margin-right: 5rem;
 }
